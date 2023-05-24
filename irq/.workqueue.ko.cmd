@@ -1,0 +1,1 @@
+cmd_/home/ubuntu/linux_drivers_qy/irq/workqueue.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/ubuntu/linux_drivers_qy/irq/workqueue.ko /home/ubuntu/linux_drivers_qy/irq/workqueue.o /home/ubuntu/linux_drivers_qy/irq/workqueue.mod.o

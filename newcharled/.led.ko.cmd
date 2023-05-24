@@ -1,0 +1,1 @@
+cmd_/home/ubuntu/linux_drivers_qy/newcharled/led.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/ubuntu/linux_drivers_qy/newcharled/led.ko /home/ubuntu/linux_drivers_qy/newcharled/led.o /home/ubuntu/linux_drivers_qy/newcharled/led.mod.o

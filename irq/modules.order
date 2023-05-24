@@ -1,0 +1,3 @@
+kernel//home/ubuntu/linux_drivers_qy/irq/irq.ko
+kernel//home/ubuntu/linux_drivers_qy/irq/tasklet.ko
+kernel//home/ubuntu/linux_drivers_qy/irq/work.ko

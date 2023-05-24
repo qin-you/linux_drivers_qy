@@ -1,0 +1,1 @@
+cmd_/home/ubuntu/linux_drivers_qy/key/key.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/ubuntu/linux_drivers_qy/key/key.ko /home/ubuntu/linux_drivers_qy/key/key.o /home/ubuntu/linux_drivers_qy/key/key.mod.o
