@@ -1,0 +1,940 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AP3216C_ALSDATAHIGH	iic/ap3216creg.h	12;"	d
+AP3216C_ALSDATALOW	iic/ap3216creg.h	11;"	d
+AP3216C_CNT	iic/ap3216c.c	28;"	d	file:
+AP3216C_CNT	iic/tmp.c	28;"	d	file:
+AP3216C_H	iic/ap3216creg.h	2;"	d
+AP3216C_IRDATAHIGH	iic/ap3216creg.h	10;"	d
+AP3216C_IRDATALOW	iic/ap3216creg.h	9;"	d
+AP3216C_NAME	iic/ap3216c.c	29;"	d	file:
+AP3216C_NAME	iic/tmp.c	29;"	d	file:
+AP3216C_PSDATAHIGH	iic/ap3216creg.h	14;"	d
+AP3216C_PSDATALOW	iic/ap3216creg.h	13;"	d
+AP3216C_SYSTEMCONG	iic/ap3216creg.h	6;"	d
+BINS	blockio/Makefile	/^BINS := $(patsubst %.c,%,$(SRCS))$/;"	m
+BINS	dtsplatform/Makefile	/^BINS := $(patsubst %.c,%,$(SRCS))$/;"	m
+BINS	fasyncnoti/Makefile	/^BINS := $(patsubst %.c,%,$(SRCS))$/;"	m
+BINS	iic/Makefile	/^BINS := $(patsubst %.c,%,$(SRCS))$/;"	m
+BINS	noblockio/Makefile	/^BINS := $(patsubst %.c,%,$(SRCS))$/;"	m
+CCM_CCGR1_BASE	led/led.c	26;"	d	file:
+CCM_CCGR1_BASE	newcharled/led.c	26;"	d	file:
+CCM_CCGR1_BASE	platform/leddevice.c	24;"	d	file:
+CHRDEVBASE_MAJOR	chrdevbase/chrdevbase.c	19;"	d	file:
+CHRDEVBASE_NAME	chrdevbase/chrdevbase.c	20;"	d	file:
+CLOSED_CMD	timer/timer.c	26;"	d	file:
+CLOSE_CMD	timer/timerApp.c	16;"	d	file:
+DTSLED_CNT	dtsled/dtsled.c	22;"	d	file:
+DTSLED_NAME	dtsled/dtsled.c	23;"	d	file:
+GPIO1_DR	dtsled/dtsled.c	/^static void __iomem *GPIO1_DR;$/;"	v	file:
+GPIO1_DR	led/led.c	/^static void __iomem * GPIO1_DR;$/;"	v	file:
+GPIO1_DR	newcharled/led.c	/^static void __iomem * GPIO1_DR;$/;"	v	file:
+GPIO1_DR	platform/leddriver.c	/^static void __iomem *GPIO1_DR;$/;"	v	file:
+GPIO1_DR_BASE	led/led.c	29;"	d	file:
+GPIO1_DR_BASE	newcharled/led.c	29;"	d	file:
+GPIO1_DR_BASE	platform/leddevice.c	27;"	d	file:
+GPIO1_GDIR	dtsled/dtsled.c	/^static void __iomem *GPIO1_GDIR;$/;"	v	file:
+GPIO1_GDIR	led/led.c	/^static void __iomem * GPIO1_GDIR;$/;"	v	file:
+GPIO1_GDIR	newcharled/led.c	/^static void __iomem * GPIO1_GDIR;$/;"	v	file:
+GPIO1_GDIR	platform/leddriver.c	/^static void __iomem *GPIO1_GDIR;$/;"	v	file:
+GPIO1_GDIR_BASE	led/led.c	30;"	d	file:
+GPIO1_GDIR_BASE	newcharled/led.c	30;"	d	file:
+GPIO1_GDIR_BASE	platform/leddevice.c	28;"	d	file:
+GPIOLED_CNT	atomic/atomic.c	22;"	d	file:
+GPIOLED_CNT	gpioled/gpioled.c	22;"	d	file:
+GPIOLED_CNT	mutex/mutex.c	24;"	d	file:
+GPIOLED_CNT	semaphore/semaphore.c	24;"	d	file:
+GPIOLED_CNT	spinlock/spinlock.c	22;"	d	file:
+GPIOLED_NAME	atomic/atomic.c	23;"	d	file:
+GPIOLED_NAME	gpioled/gpioled.c	23;"	d	file:
+GPIOLED_NAME	mutex/mutex.c	25;"	d	file:
+GPIOLED_NAME	semaphore/semaphore.c	25;"	d	file:
+GPIOLED_NAME	spinlock/spinlock.c	23;"	d	file:
+ICM20608D_ID	spi/icm20608reg.h	14;"	d
+ICM20608G_ID	spi/icm20608reg.h	13;"	d
+ICM20608_CNT	spi/icm20608.c	31;"	d	file:
+ICM20608_H	spi/icm20608reg.h	2;"	d
+ICM20608_NAME	spi/icm20608.c	32;"	d	file:
+ICM20_ACCEL_CONFIG	spi/icm20608reg.h	40;"	d
+ICM20_ACCEL_CONFIG2	spi/icm20608reg.h	41;"	d
+ICM20_ACCEL_INTEL_CTRL	spi/icm20608reg.h	71;"	d
+ICM20_ACCEL_WOM_THR	spi/icm20608reg.h	43;"	d
+ICM20_ACCEL_XOUT_H	spi/icm20608reg.h	51;"	d
+ICM20_ACCEL_XOUT_L	spi/icm20608reg.h	52;"	d
+ICM20_ACCEL_YOUT_H	spi/icm20608reg.h	53;"	d
+ICM20_ACCEL_YOUT_L	spi/icm20608reg.h	54;"	d
+ICM20_ACCEL_ZOUT_H	spi/icm20608reg.h	55;"	d
+ICM20_ACCEL_ZOUT_L	spi/icm20608reg.h	56;"	d
+ICM20_CONFIG	spi/icm20608reg.h	38;"	d
+ICM20_FIFO_COUNTH	spi/icm20608reg.h	75;"	d
+ICM20_FIFO_COUNTL	spi/icm20608reg.h	76;"	d
+ICM20_FIFO_EN	spi/icm20608reg.h	44;"	d
+ICM20_FIFO_R_W	spi/icm20608reg.h	77;"	d
+ICM20_FSYNC_INT	spi/icm20608reg.h	45;"	d
+ICM20_GYRO_CONFIG	spi/icm20608reg.h	39;"	d
+ICM20_GYRO_XOUT_H	spi/icm20608reg.h	63;"	d
+ICM20_GYRO_XOUT_L	spi/icm20608reg.h	64;"	d
+ICM20_GYRO_YOUT_H	spi/icm20608reg.h	65;"	d
+ICM20_GYRO_YOUT_L	spi/icm20608reg.h	66;"	d
+ICM20_GYRO_ZOUT_H	spi/icm20608reg.h	67;"	d
+ICM20_GYRO_ZOUT_L	spi/icm20608reg.h	68;"	d
+ICM20_INT_ENABLE	spi/icm20608reg.h	47;"	d
+ICM20_INT_PIN_CFG	spi/icm20608reg.h	46;"	d
+ICM20_INT_STATUS	spi/icm20608reg.h	48;"	d
+ICM20_LP_MODE_CFG	spi/icm20608reg.h	42;"	d
+ICM20_PWR_MGMT_1	spi/icm20608reg.h	73;"	d
+ICM20_PWR_MGMT_2	spi/icm20608reg.h	74;"	d
+ICM20_SELF_TEST_X_ACCEL	spi/icm20608reg.h	25;"	d
+ICM20_SELF_TEST_X_GYRO	spi/icm20608reg.h	22;"	d
+ICM20_SELF_TEST_Y_ACCEL	spi/icm20608reg.h	26;"	d
+ICM20_SELF_TEST_Y_GYRO	spi/icm20608reg.h	23;"	d
+ICM20_SELF_TEST_Z_ACCEL	spi/icm20608reg.h	27;"	d
+ICM20_SELF_TEST_Z_GYRO	spi/icm20608reg.h	24;"	d
+ICM20_SIGNAL_PATH_RESET	spi/icm20608reg.h	70;"	d
+ICM20_SMPLRT_DIV	spi/icm20608reg.h	37;"	d
+ICM20_TEMP_OUT_H	spi/icm20608reg.h	59;"	d
+ICM20_TEMP_OUT_L	spi/icm20608reg.h	60;"	d
+ICM20_USER_CTRL	spi/icm20608reg.h	72;"	d
+ICM20_WHO_AM_I	spi/icm20608reg.h	78;"	d
+ICM20_XA_OFFSET_H	spi/icm20608reg.h	81;"	d
+ICM20_XA_OFFSET_L	spi/icm20608reg.h	82;"	d
+ICM20_XG_OFFS_USRH	spi/icm20608reg.h	30;"	d
+ICM20_XG_OFFS_USRL	spi/icm20608reg.h	31;"	d
+ICM20_YA_OFFSET_H	spi/icm20608reg.h	83;"	d
+ICM20_YA_OFFSET_L	spi/icm20608reg.h	84;"	d
+ICM20_YG_OFFS_USRH	spi/icm20608reg.h	32;"	d
+ICM20_YG_OFFS_USRL	spi/icm20608reg.h	33;"	d
+ICM20_ZA_OFFSET_H	spi/icm20608reg.h	85;"	d
+ICM20_ZA_OFFSET_L	spi/icm20608reg.h	86;"	d
+ICM20_ZG_OFFS_USRH	spi/icm20608reg.h	34;"	d
+ICM20_ZG_OFFS_USRL	spi/icm20608reg.h	35;"	d
+IMX6UIRQ_NAME	blockio/blockio.c	31;"	d	file:
+IMX6UIRQ_NAME	fasyncnoti/fasyncnoti.c	32;"	d	file:
+IMX6UIRQ_NAME	noblockio/noblockio.c	30;"	d	file:
+IMX6U_CCM_CCGR1	dtsled/dtsled.c	/^static void __iomem *IMX6U_CCM_CCGR1;$/;"	v	file:
+IMX6U_CCM_CCGR1	led/led.c	/^static void __iomem * IMX6U_CCM_CCGR1;$/;"	v	file:
+IMX6U_CCM_CCGR1	newcharled/led.c	/^static void __iomem * IMX6U_CCM_CCGR1;$/;"	v	file:
+IMX6U_CCM_CCGR1	platform/leddriver.c	/^static void __iomem *IMX6U_CCM_CCGR1;$/;"	v	file:
+INVAKEY	blockio/blockio.c	33;"	d	file:
+INVAKEY	fasyncnoti/fasyncnoti.c	34;"	d	file:
+INVAKEY	input/input.c	30;"	d	file:
+INVAKEY	irq/irq.c	29;"	d	file:
+INVAKEY	irq/tasklet.c	30;"	d	file:
+INVAKEY	irq/work.c	29;"	d	file:
+INVAKEY	key/key.c	28;"	d	file:
+INVAKEY	key/keyApp.c	15;"	d	file:
+INVAKEY	noblockio/noblockio.c	32;"	d	file:
+IRQ_CNT	blockio/blockio.c	30;"	d	file:
+IRQ_CNT	fasyncnoti/fasyncnoti.c	31;"	d	file:
+IRQ_CNT	irq/irq.c	26;"	d	file:
+IRQ_CNT	irq/tasklet.c	27;"	d	file:
+IRQ_CNT	irq/work.c	26;"	d	file:
+IRQ_CNT	noblockio/noblockio.c	29;"	d	file:
+IRQ_NAME	irq/irq.c	27;"	d	file:
+IRQ_NAME	irq/tasklet.c	28;"	d	file:
+IRQ_NAME	irq/work.c	27;"	d	file:
+KERNELDIR	atomic/Makefile	/^KERNELDIR := \/home\/ubuntu\/linux\/linux-imx-rel_imx_4.1.15_2.1.0_ga_transplant $/;"	m
+KERNELDIR	blockio/Makefile	/^KERNELDIR := \/home\/ubuntu\/linux\/linux-imx-rel_imx_4.1.15_2.1.0_ga_transplant $/;"	m
+KERNELDIR	chrdevbase/Makefile	/^KERNELDIR := \/home\/ubuntu\/linux\/linux-imx-rel_imx_4.1.15_2.1.0_ga_transplant $/;"	m
+KERNELDIR	dtsled/Makefile	/^KERNELDIR := \/home\/ubuntu\/linux\/linux-imx-rel_imx_4.1.15_2.1.0_ga_transplant $/;"	m
+KERNELDIR	dtsplatform/Makefile	/^KERNELDIR := \/home\/ubuntu\/linux\/linux-imx-rel_imx_4.1.15_2.1.0_ga_transplant $/;"	m
+KERNELDIR	fasyncnoti/Makefile	/^KERNELDIR := \/home\/ubuntu\/linux\/linux-imx-rel_imx_4.1.15_2.1.0_ga_transplant $/;"	m
+KERNELDIR	gpioled/Makefile	/^KERNELDIR := \/home\/ubuntu\/linux\/linux-imx-rel_imx_4.1.15_2.1.0_ga_transplant $/;"	m
+KERNELDIR	iic/Makefile	/^KERNELDIR := \/home\/ubuntu\/linux\/linux-imx-rel_imx_4.1.15_2.1.0_ga_transplant $/;"	m
+KERNELDIR	input/Makefile	/^KERNELDIR := \/home\/ubuntu\/linux\/linux-imx-rel_imx_4.1.15_2.1.0_ga_transplant $/;"	m
+KERNELDIR	irq/Makefile	/^KERNELDIR := \/home\/ubuntu\/linux\/linux-imx-rel_imx_4.1.15_2.1.0_ga_transplant $/;"	m
+KERNELDIR	key/Makefile	/^KERNELDIR := \/home\/ubuntu\/linux\/linux-imx-rel_imx_4.1.15_2.1.0_ga_transplant $/;"	m
+KERNELDIR	led/Makefile	/^KERNELDIR := \/home\/ubuntu\/linux\/linux-imx-rel_imx_4.1.15_2.1.0_ga_transplant $/;"	m
+KERNELDIR	miscled/Makefile	/^KERNELDIR := \/home\/ubuntu\/linux\/linux-imx-rel_imx_4.1.15_2.1.0_ga_transplant $/;"	m
+KERNELDIR	mutex/Makefile	/^KERNELDIR := \/home\/ubuntu\/linux\/linux-imx-rel_imx_4.1.15_2.1.0_ga_transplant $/;"	m
+KERNELDIR	newcharled/Makefile	/^KERNELDIR := \/home\/ubuntu\/linux\/linux-imx-rel_imx_4.1.15_2.1.0_ga_transplant $/;"	m
+KERNELDIR	noblockio/Makefile	/^KERNELDIR := \/home\/ubuntu\/linux\/linux-imx-rel_imx_4.1.15_2.1.0_ga_transplant $/;"	m
+KERNELDIR	semaphore/Makefile	/^KERNELDIR := \/home\/ubuntu\/linux\/linux-imx-rel_imx_4.1.15_2.1.0_ga_transplant $/;"	m
+KERNELDIR	spi/Makefile	/^KERNELDIR := \/home\/ubuntu\/linux\/linux-imx-rel_imx_4.1.15_2.1.0_ga_transplant $/;"	m
+KERNELDIR	spinlock/Makefile	/^KERNELDIR := \/home\/ubuntu\/linux\/linux-imx-rel_imx_4.1.15_2.1.0_ga_transplant $/;"	m
+KERNELDIR	timer/Makefile	/^KERNELDIR := \/home\/ubuntu\/linux\/linux-imx-rel_imx_4.1.15_2.1.0_ga_transplant $/;"	m
+KEY0VALUE	blockio/blockio.c	32;"	d	file:
+KEY0VALUE	fasyncnoti/fasyncnoti.c	33;"	d	file:
+KEY0VALUE	input/input.c	29;"	d	file:
+KEY0VALUE	irq/irq.c	28;"	d	file:
+KEY0VALUE	irq/tasklet.c	29;"	d	file:
+KEY0VALUE	irq/work.c	28;"	d	file:
+KEY0VALUE	key/key.c	27;"	d	file:
+KEY0VALUE	key/keyApp.c	14;"	d	file:
+KEY0VALUE	noblockio/noblockio.c	31;"	d	file:
+KEYINPUT_CNT	input/input.c	27;"	d	file:
+KEYINPUT_NAME	input/input.c	28;"	d	file:
+KEY_CNT	key/key.c	23;"	d	file:
+KEY_NAME	key/key.c	24;"	d	file:
+KEY_NUM	blockio/blockio.c	34;"	d	file:
+KEY_NUM	fasyncnoti/fasyncnoti.c	35;"	d	file:
+KEY_NUM	input/input.c	31;"	d	file:
+KEY_NUM	irq/irq.c	30;"	d	file:
+KEY_NUM	irq/tasklet.c	31;"	d	file:
+KEY_NUM	irq/work.c	30;"	d	file:
+KEY_NUM	noblockio/noblockio.c	33;"	d	file:
+LEDDEV_CNT	dtsplatform/leddriver.c	29;"	d	file:
+LEDDEV_CNT	platform/leddriver.c	28;"	d	file:
+LEDDEV_NAME	dtsplatform/leddriver.c	30;"	d	file:
+LEDDEV_NAME	platform/leddriver.c	29;"	d	file:
+LEDOFF	atomic/atomic.c	24;"	d	file:
+LEDOFF	atomic/atomicApp.c	9;"	d	file:
+LEDOFF	dtsled/dtsled.c	24;"	d	file:
+LEDOFF	dtsled/ledApp.c	17;"	d	file:
+LEDOFF	dtsplatform/ledApp.c	14;"	d	file:
+LEDOFF	dtsplatform/leddriver.c	31;"	d	file:
+LEDOFF	gpioled/gpioled.c	24;"	d	file:
+LEDOFF	led/led.c	23;"	d	file:
+LEDOFF	led/ledApp.c	14;"	d	file:
+LEDOFF	miscled/ledApp.c	17;"	d	file:
+LEDOFF	miscled/miscled.c	27;"	d	file:
+LEDOFF	mutex/mutex.c	26;"	d	file:
+LEDOFF	mutex/mutexApp.c	9;"	d	file:
+LEDOFF	newcharled/led.c	22;"	d	file:
+LEDOFF	newcharled/ledApp.c	16;"	d	file:
+LEDOFF	platform/ledApp.c	14;"	d	file:
+LEDOFF	platform/leddriver.c	30;"	d	file:
+LEDOFF	semaphore/semaphore.c	26;"	d	file:
+LEDOFF	semaphore/semaphoreApp.c	9;"	d	file:
+LEDOFF	spinlock/spinlock.c	24;"	d	file:
+LEDOFF	spinlock/spinlockApp.c	9;"	d	file:
+LEDOFF	timer/timer.c	31;"	d	file:
+LEDON	atomic/atomic.c	25;"	d	file:
+LEDON	atomic/atomicApp.c	10;"	d	file:
+LEDON	dtsled/dtsled.c	25;"	d	file:
+LEDON	dtsled/ledApp.c	18;"	d	file:
+LEDON	dtsplatform/ledApp.c	15;"	d	file:
+LEDON	dtsplatform/leddriver.c	32;"	d	file:
+LEDON	gpioled/gpioled.c	25;"	d	file:
+LEDON	led/led.c	24;"	d	file:
+LEDON	led/ledApp.c	15;"	d	file:
+LEDON	miscled/ledApp.c	18;"	d	file:
+LEDON	miscled/miscled.c	28;"	d	file:
+LEDON	mutex/mutex.c	27;"	d	file:
+LEDON	mutex/mutexApp.c	10;"	d	file:
+LEDON	newcharled/led.c	23;"	d	file:
+LEDON	newcharled/ledApp.c	17;"	d	file:
+LEDON	platform/ledApp.c	15;"	d	file:
+LEDON	platform/leddriver.c	31;"	d	file:
+LEDON	semaphore/semaphore.c	27;"	d	file:
+LEDON	semaphore/semaphoreApp.c	10;"	d	file:
+LEDON	spinlock/spinlock.c	25;"	d	file:
+LEDON	spinlock/spinlockApp.c	10;"	d	file:
+LEDON	timer/timer.c	30;"	d	file:
+LED_MAJOR	led/led.c	20;"	d	file:
+LED_NAME	led/led.c	21;"	d	file:
+MISCLED	miscled/miscled.c	26;"	d	file:
+MISCLED_NAME	miscled/miscled.c	25;"	d	file:
+NEWCHRLED_CNT	newcharled/led.c	19;"	d	file:
+NEWCHRLED_NAME	newcharled/led.c	20;"	d	file:
+OPEN_CMD	timer/timer.c	27;"	d	file:
+OPEN_CMD	timer/timerApp.c	17;"	d	file:
+PWD	atomic/Makefile	/^PWD := $(shell pwd)$/;"	m
+PWD	blockio/Makefile	/^PWD := $(shell pwd)$/;"	m
+PWD	chrdevbase/Makefile	/^PWD := $(shell pwd)$/;"	m
+PWD	dtsled/Makefile	/^PWD := $(shell pwd)$/;"	m
+PWD	dtsplatform/Makefile	/^PWD := $(shell pwd)$/;"	m
+PWD	fasyncnoti/Makefile	/^PWD := $(shell pwd)$/;"	m
+PWD	gpioled/Makefile	/^PWD := $(shell pwd)$/;"	m
+PWD	iic/Makefile	/^PWD := $(shell pwd)$/;"	m
+PWD	input/Makefile	/^PWD := $(shell pwd)$/;"	m
+PWD	irq/Makefile	/^PWD := $(shell pwd)$/;"	m
+PWD	key/Makefile	/^PWD := $(shell pwd)$/;"	m
+PWD	led/Makefile	/^PWD := $(shell pwd)$/;"	m
+PWD	miscled/Makefile	/^PWD := $(shell pwd)$/;"	m
+PWD	mutex/Makefile	/^PWD := $(shell pwd)$/;"	m
+PWD	newcharled/Makefile	/^PWD := $(shell pwd)$/;"	m
+PWD	noblockio/Makefile	/^PWD := $(shell pwd)$/;"	m
+PWD	semaphore/Makefile	/^PWD := $(shell pwd)$/;"	m
+PWD	spi/Makefile	/^PWD := $(shell pwd)$/;"	m
+PWD	spinlock/Makefile	/^PWD := $(shell pwd)$/;"	m
+PWD	timer/Makefile	/^PWD := $(shell pwd)$/;"	m
+REGISTER_LENGTH	platform/leddevice.c	29;"	d	file:
+SETPERIOD_CMD	timer/timer.c	28;"	d	file:
+SETPERIOD_CMD	timer/timerApp.c	18;"	d	file:
+SRCS	blockio/Makefile	/^SRCS := $(wildcard *App.c)$/;"	m
+SRCS	dtsplatform/Makefile	/^SRCS := $(wildcard *App.c)$/;"	m
+SRCS	fasyncnoti/Makefile	/^SRCS := $(wildcard *App.c)$/;"	m
+SRCS	iic/Makefile	/^SRCS := $(wildcard *App.c)$/;"	m
+SRCS	noblockio/Makefile	/^SRCS := $(wildcard *App.c)$/;"	m
+SW_MUX_GPIO1_IO03	dtsled/dtsled.c	/^static void __iomem *SW_MUX_GPIO1_IO03;$/;"	v	file:
+SW_MUX_GPIO1_IO03	led/led.c	/^static void __iomem * SW_MUX_GPIO1_IO03;$/;"	v	file:
+SW_MUX_GPIO1_IO03	newcharled/led.c	/^static void __iomem * SW_MUX_GPIO1_IO03;$/;"	v	file:
+SW_MUX_GPIO1_IO03	platform/leddriver.c	/^static void __iomem *SW_MUX_GPIO1_IO03;$/;"	v	file:
+SW_MUX_GPIO1_IO03_BASE	led/led.c	27;"	d	file:
+SW_MUX_GPIO1_IO03_BASE	newcharled/led.c	27;"	d	file:
+SW_MUX_GPIO1_IO03_BASE	platform/leddevice.c	25;"	d	file:
+SW_PAD_GPIO1_IO03	dtsled/dtsled.c	/^static void __iomem *SW_PAD_GPIO1_IO03;$/;"	v	file:
+SW_PAD_GPIO1_IO03	led/led.c	/^static void __iomem * SW_PAD_GPIO1_IO03;$/;"	v	file:
+SW_PAD_GPIO1_IO03	newcharled/led.c	/^static void __iomem * SW_PAD_GPIO1_IO03;$/;"	v	file:
+SW_PAD_GPIO1_IO03	platform/leddriver.c	/^static void __iomem *SW_PAD_GPIO1_IO03;$/;"	v	file:
+SW_PAD_GPIO1_IO03_BASE	led/led.c	28;"	d	file:
+SW_PAD_GPIO1_IO03_BASE	newcharled/led.c	28;"	d	file:
+SW_PAD_GPIO1_IO03_BASE	platform/leddevice.c	26;"	d	file:
+TIMER_CNT	timer/timer.c	24;"	d	file:
+TIMER_NAME	timer/timer.c	25;"	d	file:
+__this_module	atomic/atomic.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__this_module	chrdevbase/chrdevbase.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__this_module	dtsplatform/leddriver.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__this_module	fasyncnoti/fasyncnoti.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__this_module	gpioled/gpioled.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__this_module	iic/ap3216c.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__this_module	input/input.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__this_module	key/key.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__this_module	led/led.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__this_module	miscled/miscled.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__this_module	mutex/mutex.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__this_module	newcharled/led.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__this_module	platform/leddevice.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__this_module	platform/leddriver.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__this_module	semaphore/semaphore.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__this_module	spi/icm20608.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__this_module	spinlock/spinlock.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__this_module	timer/timer.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__used	atomic/atomic.mod.c	/^__used$/;"	v	file:
+__used	atomic/atomic.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+__used	chrdevbase/chrdevbase.mod.c	/^__used$/;"	v	file:
+__used	chrdevbase/chrdevbase.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+__used	dtsplatform/leddriver.mod.c	/^__used$/;"	v	file:
+__used	dtsplatform/leddriver.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+__used	fasyncnoti/fasyncnoti.mod.c	/^__used$/;"	v	file:
+__used	fasyncnoti/fasyncnoti.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+__used	gpioled/gpioled.mod.c	/^__used$/;"	v	file:
+__used	gpioled/gpioled.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+__used	iic/ap3216c.mod.c	/^__used$/;"	v	file:
+__used	iic/ap3216c.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+__used	input/input.mod.c	/^__used$/;"	v	file:
+__used	input/input.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+__used	key/key.mod.c	/^__used$/;"	v	file:
+__used	key/key.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+__used	led/led.mod.c	/^__used$/;"	v	file:
+__used	led/led.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+__used	miscled/miscled.mod.c	/^__used$/;"	v	file:
+__used	miscled/miscled.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+__used	mutex/mutex.mod.c	/^__used$/;"	v	file:
+__used	mutex/mutex.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+__used	newcharled/led.mod.c	/^__used$/;"	v	file:
+__used	newcharled/led.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+__used	platform/leddevice.mod.c	/^__used$/;"	v	file:
+__used	platform/leddevice.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+__used	platform/leddriver.mod.c	/^__used$/;"	v	file:
+__used	platform/leddriver.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+__used	semaphore/semaphore.mod.c	/^__used$/;"	v	file:
+__used	semaphore/semaphore.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+__used	spi/icm20608.mod.c	/^__used$/;"	v	file:
+__used	spi/icm20608.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+__used	spinlock/spinlock.mod.c	/^__used$/;"	v	file:
+__used	spinlock/spinlock.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+__used	timer/timer.mod.c	/^__used$/;"	v	file:
+__used	timer/timer.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+_ap3216c_read_reg	iic/tmp.c	/^static unsigned char _ap3216c_read_reg(struct ap3216c_dev *dev, u8 reg)$/;"	f	file:
+_ap3216c_read_regs	iic/ap3216c.c	/^static int _ap3216c_read_regs(struct ap3216c_dev *dev, u8 reg, u8 *buf, u8 len)$/;"	f	file:
+_ap3216c_read_regs	iic/tmp.c	/^static int _ap3216c_read_regs(struct ap3216c_dev *dev, u8 reg, u8 *buf, u8 len)$/;"	f	file:
+_ap3216c_write_reg	iic/ap3216c.c	/^static int _ap3216c_write_reg(struct ap3216c_dev *dev, unsigned char reg, u8 val)$/;"	f	file:
+_ap3216c_write_reg	iic/tmp.c	/^static int _ap3216c_write_reg(struct ap3216c_dev *dev, unsigned char reg, u8 val)$/;"	f	file:
+_ap3216c_write_regs	iic/ap3216c.c	/^static int _ap3216c_write_regs(struct ap3216c_dev *dev, unsigned char reg, u8 *buf, u8 len)$/;"	f	file:
+_ap3216c_write_regs	iic/tmp.c	/^static int _ap3216c_write_regs(struct ap3216c_dev *dev, unsigned char reg, u8 *buf, u8 len)$/;"	f	file:
+accel_x_adc	spi/icm20608.c	/^	signed int accel_x_adc;		\/* 加速度计X轴原始值 	*\/$/;"	m	struct:icm20608_dev	file:
+accel_y_adc	spi/icm20608.c	/^	signed int accel_y_adc;		\/* 加速度计Y轴原始值	*\/$/;"	m	struct:icm20608_dev	file:
+accel_z_adc	spi/icm20608.c	/^	signed int accel_z_adc;		\/* 加速度计Z轴原始值 	*\/$/;"	m	struct:icm20608_dev	file:
+als	iic/ap3216c.c	/^        unsigned short ir, als, ps;     \/\/ 三个光传感数据$/;"	m	struct:ap3216c_dev	file:
+als	iic/tmp.c	/^        unsigned short ir, als, ps;     \/\/ 三个光传感数据$/;"	m	struct:ap3216c_dev	file:
+ap3216c_dev	iic/ap3216c.c	/^struct ap3216c_dev {$/;"	s	file:
+ap3216c_dev	iic/tmp.c	/^struct ap3216c_dev {$/;"	s	file:
+ap3216c_driver	iic/ap3216c.c	/^static struct i2c_driver ap3216c_driver = {$/;"	v	typeref:struct:i2c_driver	file:
+ap3216c_driver	iic/tmp.c	/^static struct i2c_driver ap3216c_driver = {$/;"	v	typeref:struct:i2c_driver	file:
+ap3216c_id	iic/ap3216c.c	/^static const struct i2c_device_id ap3216c_id[] = {$/;"	v	typeref:struct:i2c_device_id	file:
+ap3216c_id	iic/tmp.c	/^static const struct i2c_device_id ap3216c_id[] = {$/;"	v	typeref:struct:i2c_device_id	file:
+ap3216c_match_table	iic/ap3216c.c	/^static const struct of_device_id ap3216c_match_table[] = {$/;"	v	typeref:struct:of_device_id	file:
+ap3216c_match_table	iic/tmp.c	/^static const struct of_device_id ap3216c_match_table[] = {$/;"	v	typeref:struct:of_device_id	file:
+ap3216c_open	iic/ap3216c.c	/^static int ap3216c_open(struct inode *inode, struct file *filp)$/;"	f	file:
+ap3216c_open	iic/tmp.c	/^static int ap3216c_open(struct inode *inode, struct file *filp)$/;"	f	file:
+ap3216c_probe	iic/ap3216c.c	/^static int ap3216c_probe(struct i2c_client *client, const struct i2c_device_id *id)$/;"	f	file:
+ap3216c_probe	iic/tmp.c	/^static int ap3216c_probe(struct i2c_client *client, const struct i2c_device_id *id)$/;"	f	file:
+ap3216c_read	iic/ap3216c.c	/^static ssize_t ap3216c_read(struct file *filp, char __user *buf, size_t cnt, loff_t *loff)      \/\/ buf类型固定就是char 字节 cnt是字节数$/;"	f	file:
+ap3216c_read	iic/tmp.c	/^static ssize_t ap3216c_read(struct file *filp, char __user *buf, size_t cnt, loff_t *loff)      \/\/ buf类型固定就是char 字节 cnt是字节数$/;"	f	file:
+ap3216c_remove	iic/ap3216c.c	/^static int ap3216c_remove(struct i2c_client *client)$/;"	f	file:
+ap3216c_remove	iic/tmp.c	/^static int ap3216c_remove(struct i2c_client *client)$/;"	f	file:
+ap3216cdev	iic/ap3216c.c	/^struct ap3216c_dev ap3216cdev;$/;"	v	typeref:struct:ap3216c_dev
+ap3216cdev	iic/tmp.c	/^struct ap3216c_dev ap3216cdev;$/;"	v	typeref:struct:ap3216c_dev
+ap3216cdriver_exit	iic/ap3216c.c	/^module_exit(ap3216cdriver_exit);$/;"	v
+ap3216cdriver_exit	iic/ap3216c.c	/^static void __exit ap3216cdriver_exit(void)$/;"	f	file:
+ap3216cdriver_exit	iic/tmp.c	/^module_exit(ap3216cdriver_exit);$/;"	v
+ap3216cdriver_exit	iic/tmp.c	/^static void __exit ap3216cdriver_exit(void)$/;"	f	file:
+ap3216cdriver_init	iic/ap3216c.c	/^module_init(ap3216cdriver_init);$/;"	v
+ap3216cdriver_init	iic/ap3216c.c	/^static int __init ap3216cdriver_init(void)$/;"	f	file:
+ap3216cdriver_init	iic/tmp.c	/^module_init(ap3216cdriver_init);$/;"	v
+ap3216cdriver_init	iic/tmp.c	/^static int __init ap3216cdriver_init(void)$/;"	f	file:
+available	spinlock/spinlock.c	/^        bool available;                       \/* 表示设备可用性 true可用 false不可用 保证用户进程独占设备*\/$/;"	m	struct:gpioled_dev	file:
+cdev	atomic/atomic.c	/^        struct cdev cdev;$/;"	m	struct:gpioled_dev	typeref:struct:gpioled_dev::cdev	file:
+cdev	blockio/blockio.c	/^        struct cdev             cdev;$/;"	m	struct:irq_dev	typeref:struct:irq_dev::cdev	file:
+cdev	dtsled/dtsled.c	/^        struct cdev cdev;       \/*cdev*\/$/;"	m	struct:dtsled_dev	typeref:struct:dtsled_dev::cdev	file:
+cdev	dtsplatform/leddriver.c	/^        struct cdev cdev;$/;"	m	struct:leddev_dev	typeref:struct:leddev_dev::cdev	file:
+cdev	fasyncnoti/fasyncnoti.c	/^        struct cdev             cdev;$/;"	m	struct:irq_dev	typeref:struct:irq_dev::cdev	file:
+cdev	gpioled/gpioled.c	/^        struct cdev cdev;$/;"	m	struct:gpioled_dev	typeref:struct:gpioled_dev::cdev	file:
+cdev	iic/ap3216c.c	/^        struct cdev cdev;$/;"	m	struct:ap3216c_dev	typeref:struct:ap3216c_dev::cdev	file:
+cdev	iic/tmp.c	/^        struct cdev cdev;$/;"	m	struct:ap3216c_dev	typeref:struct:ap3216c_dev::cdev	file:
+cdev	input/input.c	/^	struct cdev		cdev;$/;"	m	struct:keyinput_dev	typeref:struct:keyinput_dev::cdev	file:
+cdev	irq/irq.c	/^        struct cdev             cdev;$/;"	m	struct:irq_dev	typeref:struct:irq_dev::cdev	file:
+cdev	irq/tasklet.c	/^        struct cdev             cdev;$/;"	m	struct:irq_dev	typeref:struct:irq_dev::cdev	file:
+cdev	irq/work.c	/^        struct cdev             cdev;$/;"	m	struct:irq_dev	typeref:struct:irq_dev::cdev	file:
+cdev	key/key.c	/^        struct cdev     cdev;$/;"	m	struct:key_dev	typeref:struct:key_dev::cdev	file:
+cdev	mutex/mutex.c	/^        struct cdev cdev;$/;"	m	struct:gpioled_dev	typeref:struct:gpioled_dev::cdev	file:
+cdev	newcharled/led.c	/^    struct cdev cdev;               \/\/ cdev$/;"	m	struct:newchrled_dev	typeref:struct:newchrled_dev::cdev	file:
+cdev	noblockio/noblockio.c	/^        struct cdev             cdev;$/;"	m	struct:irq_dev	typeref:struct:irq_dev::cdev	file:
+cdev	platform/leddriver.c	/^        struct cdev cdev;$/;"	m	struct:leddev_dev	typeref:struct:leddev_dev::cdev	file:
+cdev	semaphore/semaphore.c	/^        struct cdev cdev;$/;"	m	struct:gpioled_dev	typeref:struct:gpioled_dev::cdev	file:
+cdev	spi/icm20608.c	/^	struct cdev cdev;			$/;"	m	struct:icm20608_dev	typeref:struct:icm20608_dev::cdev	file:
+cdev	spinlock/spinlock.c	/^        struct cdev cdev;$/;"	m	struct:gpioled_dev	typeref:struct:gpioled_dev::cdev	file:
+cdev	timer/timer.c	/^        struct cdev             cdev;$/;"	m	struct:timer_dev	typeref:struct:timer_dev::cdev	file:
+chrdev_exit	chrdevbase/chrdevbase.c	/^module_exit(chrdev_exit);$/;"	v
+chrdev_exit	chrdevbase/chrdevbase.c	/^static void __exit chrdev_exit(void)$/;"	f	file:
+chrdev_init	chrdevbase/chrdevbase.c	/^module_init(chrdev_init);$/;"	v
+chrdev_init	chrdevbase/chrdevbase.c	/^static int __init chrdev_init(void)$/;"	f	file:
+chrdevbase_open	chrdevbase/chrdevbase.c	/^static int chrdevbase_open(struct inode *inode, struct file *file)$/;"	f	file:
+chrdevbase_read	chrdevbase/chrdevbase.c	/^static ssize_t chrdevbase_read(struct file *filp, char __user *buf, size_t count, loff_t *fpos)$/;"	f	file:
+chrdevbase_release	chrdevbase/chrdevbase.c	/^static int chrdevbase_release(struct inode *inode, struct file *filp_close)$/;"	f	file:
+chrdevbase_write	chrdevbase/chrdevbase.c	/^static ssize_t chrdevbase_write(struct file *filp, const char __user *buf, size_t count, loff_t *fpos)$/;"	f	file:
+class	atomic/atomic.c	/^        struct class *class;$/;"	m	struct:gpioled_dev	typeref:struct:gpioled_dev::class	file:
+class	blockio/blockio.c	/^        struct class            *class;$/;"	m	struct:irq_dev	typeref:struct:irq_dev::class	file:
+class	dtsled/dtsled.c	/^        struct class *class;    \/*类 创建文件系统中的设备节点需要*\/$/;"	m	struct:dtsled_dev	typeref:struct:dtsled_dev::class	file:
+class	dtsplatform/leddriver.c	/^        struct class *class;$/;"	m	struct:leddev_dev	typeref:struct:leddev_dev::class	file:
+class	fasyncnoti/fasyncnoti.c	/^        struct class            *class;$/;"	m	struct:irq_dev	typeref:struct:irq_dev::class	file:
+class	gpioled/gpioled.c	/^        struct class *class;$/;"	m	struct:gpioled_dev	typeref:struct:gpioled_dev::class	file:
+class	iic/ap3216c.c	/^        struct class *class;$/;"	m	struct:ap3216c_dev	typeref:struct:ap3216c_dev::class	file:
+class	iic/tmp.c	/^        struct class *class;$/;"	m	struct:ap3216c_dev	typeref:struct:ap3216c_dev::class	file:
+class	input/input.c	/^	struct class		*class;$/;"	m	struct:keyinput_dev	typeref:struct:keyinput_dev::class	file:
+class	irq/irq.c	/^        struct class            *class;$/;"	m	struct:irq_dev	typeref:struct:irq_dev::class	file:
+class	irq/tasklet.c	/^        struct class            *class;$/;"	m	struct:irq_dev	typeref:struct:irq_dev::class	file:
+class	irq/work.c	/^        struct class            *class;$/;"	m	struct:irq_dev	typeref:struct:irq_dev::class	file:
+class	key/key.c	/^        struct class    *class;$/;"	m	struct:key_dev	typeref:struct:key_dev::class	file:
+class	mutex/mutex.c	/^        struct class *class;$/;"	m	struct:gpioled_dev	typeref:struct:gpioled_dev::class	file:
+class	newcharled/led.c	/^    struct class *class;             \/\/ 类$/;"	m	struct:newchrled_dev	typeref:struct:newchrled_dev::class	file:
+class	noblockio/noblockio.c	/^        struct class            *class;$/;"	m	struct:irq_dev	typeref:struct:irq_dev::class	file:
+class	platform/leddriver.c	/^        struct class *class;$/;"	m	struct:leddev_dev	typeref:struct:leddev_dev::class	file:
+class	semaphore/semaphore.c	/^        struct class *class;$/;"	m	struct:gpioled_dev	typeref:struct:gpioled_dev::class	file:
+class	spi/icm20608.c	/^	struct class *class;		$/;"	m	struct:icm20608_dev	typeref:struct:icm20608_dev::class	file:
+class	spinlock/spinlock.c	/^        struct class *class;$/;"	m	struct:gpioled_dev	typeref:struct:gpioled_dev::class	file:
+class	timer/timer.c	/^        struct class            *class;$/;"	m	struct:timer_dev	typeref:struct:timer_dev::class	file:
+curkeynum	blockio/blockio.c	/^        unsigned char           curkeynum;              \/\/当前按键号$/;"	m	struct:irq_dev	file:
+curkeynum	fasyncnoti/fasyncnoti.c	/^        unsigned char           curkeynum;              \/\/当前按键号$/;"	m	struct:irq_dev	file:
+curkeynum	input/input.c	/^	unsigned char 		curkeynum;		\/\/ 当前按键号$/;"	m	struct:keyinput_dev	file:
+curkeynum	irq/irq.c	/^        unsigned char           curkeynum;              \/\/当前按键号$/;"	m	struct:irq_dev	file:
+curkeynum	irq/tasklet.c	/^        unsigned char           curkeynum;              \/\/当前按键号$/;"	m	struct:irq_dev	file:
+curkeynum	irq/work.c	/^        unsigned char           curkeynum;              \/\/当前按键号$/;"	m	struct:irq_dev	file:
+curkeynum	noblockio/noblockio.c	/^        unsigned char           curkeynum;              \/\/当前按键号$/;"	m	struct:irq_dev	file:
+device	atomic/atomic.c	/^        struct device *device;$/;"	m	struct:gpioled_dev	typeref:struct:gpioled_dev::device	file:
+device	blockio/blockio.c	/^        struct device           *device;$/;"	m	struct:irq_dev	typeref:struct:irq_dev::device	file:
+device	dtsled/dtsled.c	/^        struct device *device;  \/*设备*\/$/;"	m	struct:dtsled_dev	typeref:struct:dtsled_dev::device	file:
+device	dtsplatform/leddriver.c	/^        struct device *device;$/;"	m	struct:leddev_dev	typeref:struct:leddev_dev::device	file:
+device	fasyncnoti/fasyncnoti.c	/^        struct device           *device;$/;"	m	struct:irq_dev	typeref:struct:irq_dev::device	file:
+device	gpioled/gpioled.c	/^        struct device *device;$/;"	m	struct:gpioled_dev	typeref:struct:gpioled_dev::device	file:
+device	iic/ap3216c.c	/^        struct device *device;$/;"	m	struct:ap3216c_dev	typeref:struct:ap3216c_dev::device	file:
+device	iic/tmp.c	/^        struct device *device;$/;"	m	struct:ap3216c_dev	typeref:struct:ap3216c_dev::device	file:
+device	input/input.c	/^	struct device		*device;$/;"	m	struct:keyinput_dev	typeref:struct:keyinput_dev::device	file:
+device	irq/irq.c	/^        struct device           *device;$/;"	m	struct:irq_dev	typeref:struct:irq_dev::device	file:
+device	irq/tasklet.c	/^        struct device           *device;$/;"	m	struct:irq_dev	typeref:struct:irq_dev::device	file:
+device	irq/work.c	/^        struct device           *device;$/;"	m	struct:irq_dev	typeref:struct:irq_dev::device	file:
+device	key/key.c	/^        struct device   *device;$/;"	m	struct:key_dev	typeref:struct:key_dev::device	file:
+device	mutex/mutex.c	/^        struct device *device;$/;"	m	struct:gpioled_dev	typeref:struct:gpioled_dev::device	file:
+device	newcharled/led.c	/^    struct device *device;          \/\/ 设备$/;"	m	struct:newchrled_dev	typeref:struct:newchrled_dev::device	file:
+device	noblockio/noblockio.c	/^        struct device           *device;$/;"	m	struct:irq_dev	typeref:struct:irq_dev::device	file:
+device	platform/leddriver.c	/^        struct device *device;$/;"	m	struct:leddev_dev	typeref:struct:leddev_dev::device	file:
+device	semaphore/semaphore.c	/^        struct device *device;$/;"	m	struct:gpioled_dev	typeref:struct:gpioled_dev::device	file:
+device	spi/icm20608.c	/^	struct device *device;		$/;"	m	struct:icm20608_dev	typeref:struct:icm20608_dev::device	file:
+device	spinlock/spinlock.c	/^        struct device *device;$/;"	m	struct:gpioled_dev	typeref:struct:gpioled_dev::device	file:
+device	timer/timer.c	/^        struct device           *device;$/;"	m	struct:timer_dev	typeref:struct:timer_dev::device	file:
+devid	atomic/atomic.c	/^        dev_t devid;$/;"	m	struct:gpioled_dev	file:
+devid	blockio/blockio.c	/^        dev_t                   devid;$/;"	m	struct:irq_dev	file:
+devid	dtsled/dtsled.c	/^        dev_t devid;            \/*设备号*\/$/;"	m	struct:dtsled_dev	file:
+devid	dtsplatform/leddriver.c	/^        dev_t devid;$/;"	m	struct:leddev_dev	file:
+devid	fasyncnoti/fasyncnoti.c	/^        dev_t                   devid;$/;"	m	struct:irq_dev	file:
+devid	gpioled/gpioled.c	/^        dev_t devid;$/;"	m	struct:gpioled_dev	file:
+devid	iic/ap3216c.c	/^        dev_t devid;$/;"	m	struct:ap3216c_dev	file:
+devid	iic/tmp.c	/^        dev_t devid;$/;"	m	struct:ap3216c_dev	file:
+devid	input/input.c	/^	dev_t 			devid;$/;"	m	struct:keyinput_dev	file:
+devid	irq/irq.c	/^        dev_t                   devid;$/;"	m	struct:irq_dev	file:
+devid	irq/tasklet.c	/^        dev_t                   devid;$/;"	m	struct:irq_dev	file:
+devid	irq/work.c	/^        dev_t                   devid;$/;"	m	struct:irq_dev	file:
+devid	key/key.c	/^        dev_t           devid;$/;"	m	struct:key_dev	file:
+devid	mutex/mutex.c	/^        dev_t devid;$/;"	m	struct:gpioled_dev	file:
+devid	newcharled/led.c	/^    dev_t devid;                    \/\/ 设备号$/;"	m	struct:newchrled_dev	file:
+devid	noblockio/noblockio.c	/^        dev_t                   devid;$/;"	m	struct:irq_dev	file:
+devid	platform/leddriver.c	/^        dev_t devid;$/;"	m	struct:leddev_dev	file:
+devid	semaphore/semaphore.c	/^        dev_t devid;$/;"	m	struct:gpioled_dev	file:
+devid	spi/icm20608.c	/^	dev_t devid;				$/;"	m	struct:icm20608_dev	file:
+devid	spinlock/spinlock.c	/^        dev_t devid;$/;"	m	struct:gpioled_dev	file:
+devid	timer/timer.c	/^        dev_t                   devid;$/;"	m	struct:timer_dev	file:
+dtsled	dtsled/dtsled.c	/^struct dtsled_dev dtsled;       \/*创建一个自定义的dtsled设备*\/$/;"	v	typeref:struct:dtsled_dev
+dtsled_dev	dtsled/dtsled.c	/^struct dtsled_dev {$/;"	s	file:
+dtsled_fops	dtsled/dtsled.c	/^static struct file_operations dtsled_fops = {$/;"	v	typeref:struct:file_operations	file:
+fasync_queue	fasyncnoti/fasyncnoti.c	/^        struct fasync_struct *fasync_queue;      \/\/ 异步通知相关结构体 作用？$/;"	m	struct:irq_dev	typeref:struct:irq_dev::fasync_struct	file:
+fd	fasyncnoti/fasyncnotiApp.c	/^static int fd = 0;$/;"	v	file:
+fops	chrdevbase/chrdevbase.c	/^static struct file_operations fops = {$/;"	v	typeref:struct:file_operations	file:
+fops	dtsplatform/leddriver.c	/^struct file_operations fops = {$/;"	v	typeref:struct:file_operations
+fops	iic/ap3216c.c	/^struct file_operations fops = {$/;"	v	typeref:struct:file_operations
+fops	iic/tmp.c	/^struct file_operations fops = {$/;"	v	typeref:struct:file_operations
+fops	platform/leddriver.c	/^struct file_operations fops = {$/;"	v	typeref:struct:file_operations
+gpio	blockio/blockio.c	/^        int     gpio;           \/\/gpio号$/;"	m	struct:irq_keydesc	file:
+gpio	fasyncnoti/fasyncnoti.c	/^        int     gpio;           \/\/gpio号$/;"	m	struct:irq_keydesc	file:
+gpio	input/input.c	/^	int gpio;$/;"	m	struct:irq_keydesc	file:
+gpio	irq/irq.c	/^        int     gpio;           \/\/gpio号$/;"	m	struct:irq_keydesc	file:
+gpio	irq/tasklet.c	/^        int     gpio;           \/\/gpio号$/;"	m	struct:irq_keydesc	file:
+gpio	irq/work.c	/^        int     gpio;           \/\/gpio号$/;"	m	struct:irq_keydesc	file:
+gpio	noblockio/noblockio.c	/^        int     gpio;           \/\/gpio号$/;"	m	struct:irq_keydesc	file:
+gpio_num	atomic/atomic.c	/^        int gpio_num;                   \/*led使用的GPIO编号*\/$/;"	m	struct:gpioled_dev	file:
+gpio_num	gpioled/gpioled.c	/^        int gpio_num;                   \/*led使用的GPIO编号*\/$/;"	m	struct:gpioled_dev	file:
+gpio_num	key/key.c	/^        int             gpio_num;$/;"	m	struct:key_dev	file:
+gpio_num	miscled/miscled.c	/^        int gpio_num;$/;"	m	struct:miscled_dev	file:
+gpio_num	mutex/mutex.c	/^        int gpio_num;                   \/*led使用的GPIO编号*\/$/;"	m	struct:gpioled_dev	file:
+gpio_num	semaphore/semaphore.c	/^        int gpio_num;                   \/*led使用的GPIO编号*\/$/;"	m	struct:gpioled_dev	file:
+gpio_num	spinlock/spinlock.c	/^        int gpio_num;                   \/*led使用的GPIO编号*\/$/;"	m	struct:gpioled_dev	file:
+gpioled	atomic/atomic.c	/^static struct gpioled_dev gpioled;      \/*静态全局变量 里面的成员变量都会赋0初值*\/$/;"	v	typeref:struct:gpioled_dev	file:
+gpioled	gpioled/gpioled.c	/^static struct gpioled_dev gpioled;$/;"	v	typeref:struct:gpioled_dev	file:
+gpioled	mutex/mutex.c	/^static struct gpioled_dev gpioled;$/;"	v	typeref:struct:gpioled_dev	file:
+gpioled	semaphore/semaphore.c	/^static struct gpioled_dev gpioled;$/;"	v	typeref:struct:gpioled_dev	file:
+gpioled	spinlock/spinlock.c	/^static struct gpioled_dev gpioled;$/;"	v	typeref:struct:gpioled_dev	file:
+gpioled_dev	atomic/atomic.c	/^struct gpioled_dev {$/;"	s	file:
+gpioled_dev	gpioled/gpioled.c	/^struct gpioled_dev {$/;"	s	file:
+gpioled_dev	mutex/mutex.c	/^struct gpioled_dev {$/;"	s	file:
+gpioled_dev	semaphore/semaphore.c	/^struct gpioled_dev {$/;"	s	file:
+gpioled_dev	spinlock/spinlock.c	/^struct gpioled_dev {$/;"	s	file:
+gpioled_fops	atomic/atomic.c	/^struct file_operations gpioled_fops = {$/;"	v	typeref:struct:file_operations
+gpioled_fops	gpioled/gpioled.c	/^static struct file_operations gpioled_fops = {$/;"	v	typeref:struct:file_operations	file:
+gyro_x_adc	spi/icm20608.c	/^	signed int gyro_x_adc;		\/* 陀螺仪X轴原始值 	 *\/$/;"	m	struct:icm20608_dev	file:
+gyro_y_adc	spi/icm20608.c	/^	signed int gyro_y_adc;		\/* 陀螺仪Y轴原始值		*\/$/;"	m	struct:icm20608_dev	file:
+gyro_z_adc	spi/icm20608.c	/^	signed int gyro_z_adc;		\/* 陀螺仪Z轴原始值 		*\/$/;"	m	struct:icm20608_dev	file:
+handler	blockio/blockio.c	/^        irqreturn_t (*handler)(int, void*);     \/\/中断服务函数 $/;"	m	struct:irq_keydesc	file:
+handler	fasyncnoti/fasyncnoti.c	/^        irqreturn_t (*handler)(int, void*);     \/\/中断服务函数 $/;"	m	struct:irq_keydesc	file:
+handler	input/input.c	/^	irqreturn_t (*handler)(int, void*);$/;"	m	struct:irq_keydesc	file:
+handler	irq/irq.c	/^        irqreturn_t (*handler)(int, void*);     \/\/中断服务函数 $/;"	m	struct:irq_keydesc	file:
+handler	irq/tasklet.c	/^        irqreturn_t (*handler)(int, void*);     \/\/中断服务函数 $/;"	m	struct:irq_keydesc	file:
+handler	irq/work.c	/^        irqreturn_t (*handler)(int, void*);     \/\/中断服务函数 $/;"	m	struct:irq_keydesc	file:
+handler	noblockio/noblockio.c	/^        irqreturn_t (*handler)(int, void*);     \/\/中断服务函数 $/;"	m	struct:irq_keydesc	file:
+icm20608_dev	spi/icm20608.c	/^struct icm20608_dev {$/;"	s	file:
+icm20608_driver	spi/icm20608.c	/^static struct spi_driver icm20608_driver = {$/;"	v	typeref:struct:spi_driver	file:
+icm20608_exit	spi/icm20608.c	/^module_exit(icm20608_exit);$/;"	v
+icm20608_exit	spi/icm20608.c	/^static void __exit icm20608_exit(void)$/;"	f	file:
+icm20608_id	spi/icm20608.c	/^static const struct spi_device_id icm20608_id[] = {$/;"	v	typeref:struct:spi_device_id	file:
+icm20608_init	spi/icm20608.c	/^module_init(icm20608_init);$/;"	v
+icm20608_init	spi/icm20608.c	/^static int __init icm20608_init(void)$/;"	f	file:
+icm20608_of_match	spi/icm20608.c	/^static const struct of_device_id icm20608_of_match[] = {$/;"	v	typeref:struct:of_device_id	file:
+icm20608_open	spi/icm20608.c	/^static int icm20608_open(struct inode *inode, struct file *filp)$/;"	f	file:
+icm20608_ops	spi/icm20608.c	/^static const struct file_operations icm20608_ops = {$/;"	v	typeref:struct:file_operations	file:
+icm20608_probe	spi/icm20608.c	/^static int icm20608_probe(struct spi_device *spi)$/;"	f	file:
+icm20608_read	spi/icm20608.c	/^static ssize_t icm20608_read(struct file *filp, char __user *buf, size_t cnt, loff_t *off)$/;"	f	file:
+icm20608_read_onereg	spi/icm20608.c	/^static unsigned char icm20608_read_onereg(struct icm20608_dev *dev, u8 reg)$/;"	f	file:
+icm20608_read_regs	spi/icm20608.c	/^static int icm20608_read_regs(struct icm20608_dev *dev, u8 reg, void *buf, int len)$/;"	f	file:
+icm20608_readdata	spi/icm20608.c	/^void icm20608_readdata(struct icm20608_dev *dev)$/;"	f
+icm20608_reginit	spi/icm20608.c	/^void icm20608_reginit(void)$/;"	f
+icm20608_remove	spi/icm20608.c	/^static int icm20608_remove(struct spi_device *spi)$/;"	f	file:
+icm20608_write_onereg	spi/icm20608.c	/^static void icm20608_write_onereg(struct icm20608_dev *dev, u8 reg, u8 value)$/;"	f	file:
+icm20608_write_regs	spi/icm20608.c	/^static s32 icm20608_write_regs(struct icm20608_dev *dev, u8 reg, u8 *buf, u8 len)$/;"	f	file:
+icm20608dev	spi/icm20608.c	/^static struct icm20608_dev icm20608dev;$/;"	v	typeref:struct:icm20608_dev	file:
+inputdev	input/input.c	/^	struct input_dev	*inputdev;$/;"	m	struct:keyinput_dev	typeref:struct:keyinput_dev::input_dev	file:
+inputevent	input/inputApp.c	/^static struct input_event inputevent;$/;"	v	typeref:struct:input_event	file:
+ir	iic/ap3216c.c	/^        unsigned short ir, als, ps;     \/\/ 三个光传感数据$/;"	m	struct:ap3216c_dev	file:
+ir	iic/tmp.c	/^        unsigned short ir, als, ps;     \/\/ 三个光传感数据$/;"	m	struct:ap3216c_dev	file:
+irq_dev	blockio/blockio.c	/^struct irq_dev {$/;"	s	file:
+irq_dev	fasyncnoti/fasyncnoti.c	/^struct irq_dev {$/;"	s	file:
+irq_dev	irq/irq.c	/^struct irq_dev {$/;"	s	file:
+irq_dev	irq/tasklet.c	/^struct irq_dev {$/;"	s	file:
+irq_dev	irq/work.c	/^struct irq_dev {$/;"	s	file:
+irq_dev	noblockio/noblockio.c	/^struct irq_dev {$/;"	s	file:
+irq_keydesc	blockio/blockio.c	/^struct irq_keydesc {$/;"	s	file:
+irq_keydesc	fasyncnoti/fasyncnoti.c	/^struct irq_keydesc {$/;"	s	file:
+irq_keydesc	input/input.c	/^struct irq_keydesc {$/;"	s	file:
+irq_keydesc	irq/irq.c	/^struct irq_keydesc {$/;"	s	file:
+irq_keydesc	irq/tasklet.c	/^struct irq_keydesc {$/;"	s	file:
+irq_keydesc	irq/work.c	/^struct irq_keydesc {$/;"	s	file:
+irq_keydesc	noblockio/noblockio.c	/^struct irq_keydesc {$/;"	s	file:
+irqkeydesc	blockio/blockio.c	/^        struct irq_keydesc      irqkeydesc[KEY_NUM];    \/\/按键描述数组 有的板子有多个按键$/;"	m	struct:irq_dev	typeref:struct:irq_dev::irq_keydesc	file:
+irqkeydesc	fasyncnoti/fasyncnoti.c	/^        struct irq_keydesc      irqkeydesc[KEY_NUM];    \/\/按键描述数组 有的板子有多个按键$/;"	m	struct:irq_dev	typeref:struct:irq_dev::irq_keydesc	file:
+irqkeydesc	irq/irq.c	/^        struct irq_keydesc      irqkeydesc[KEY_NUM];    \/\/按键描述数组 有的板子有多个按键$/;"	m	struct:irq_dev	typeref:struct:irq_dev::irq_keydesc	file:
+irqkeydesc	irq/tasklet.c	/^        struct irq_keydesc      irqkeydesc[KEY_NUM];    \/\/按键描述数组 有的板子有多个按键$/;"	m	struct:irq_dev	typeref:struct:irq_dev::irq_keydesc	file:
+irqkeydesc	irq/work.c	/^        struct irq_keydesc      irqkeydesc[KEY_NUM];    \/\/按键描述数组 有的板子有多个按键$/;"	m	struct:irq_dev	typeref:struct:irq_dev::irq_keydesc	file:
+irqkeydesc	noblockio/noblockio.c	/^        struct irq_keydesc      irqkeydesc[KEY_NUM];    \/\/按键描述数组 有的板子有多个按键$/;"	m	struct:irq_dev	typeref:struct:irq_dev::irq_keydesc	file:
+irqnum	blockio/blockio.c	/^        int     irqnum;         \/\/中断号$/;"	m	struct:irq_keydesc	file:
+irqnum	fasyncnoti/fasyncnoti.c	/^        int     irqnum;         \/\/中断号$/;"	m	struct:irq_keydesc	file:
+irqnum	input/input.c	/^	int irqnum;$/;"	m	struct:irq_keydesc	file:
+irqnum	irq/irq.c	/^        int     irqnum;         \/\/中断号$/;"	m	struct:irq_keydesc	file:
+irqnum	irq/tasklet.c	/^        int     irqnum;         \/\/中断号$/;"	m	struct:irq_keydesc	file:
+irqnum	irq/work.c	/^        int     irqnum;         \/\/中断号$/;"	m	struct:irq_keydesc	file:
+irqnum	noblockio/noblockio.c	/^        int     irqnum;         \/\/中断号$/;"	m	struct:irq_keydesc	file:
+kerneldata	chrdevbase/chrdevbase.c	/^static char kerneldata[] = "kernel data";$/;"	v	file:
+key0_handler	blockio/blockio.c	/^static irqreturn_t key0_handler(int irq, void *pdev)    $/;"	f	file:
+key0_handler	fasyncnoti/fasyncnoti.c	/^static irqreturn_t key0_handler(int irq, void *pdev)    $/;"	f	file:
+key0_handler	input/input.c	/^static irqreturn_t key0_handler(int irq, void *dev_id)$/;"	f	file:
+key0_handler	irq/irq.c	/^static irqreturn_t key0_handler(int irq, void *pdev)    $/;"	f	file:
+key0_handler	irq/tasklet.c	/^static irqreturn_t key0_handler(int irq, void *pdev)    $/;"	f	file:
+key0_handler	irq/work.c	/^static irqreturn_t key0_handler(int irq, void *pdev)    $/;"	f	file:
+key0_handler	noblockio/noblockio.c	/^static irqreturn_t key0_handler(int irq, void *pdev)    $/;"	f	file:
+key_dev	key/key.c	/^struct key_dev {$/;"	s	file:
+key_fops	key/key.c	/^static struct file_operations key_fops = {$/;"	v	typeref:struct:file_operations	file:
+key_open	key/key.c	/^static int key_open(struct inode *inode, struct file *filp)$/;"	f	file:
+key_read	key/key.c	/^static ssize_t key_read(struct file *filp, char __user *buf, size_t cnt, loff_t *offt)$/;"	f	file:
+keydev	key/key.c	/^static struct key_dev   keydev;$/;"	v	typeref:struct:key_dev	file:
+keyinput_dev	input/input.c	/^struct keyinput_dev{$/;"	s	file:
+keyinput_exit	input/input.c	/^module_exit(keyinput_exit);$/;"	v
+keyinput_exit	input/input.c	/^static void __exit keyinput_exit(void)$/;"	f	file:
+keyinput_init	input/input.c	/^module_init(keyinput_init);$/;"	v
+keyinput_init	input/input.c	/^static int __init keyinput_init(void)$/;"	f	file:
+keyinputdev	input/input.c	/^static struct keyinput_dev	keyinputdev;$/;"	v	typeref:struct:keyinput_dev	file:
+keyio_init	blockio/blockio.c	/^static int keyio_init(void)$/;"	f	file:
+keyio_init	fasyncnoti/fasyncnoti.c	/^static int keyio_init(void)$/;"	f	file:
+keyio_init	input/input.c	/^static int keyio_init(void)$/;"	f	file:
+keyio_init	irq/irq.c	/^static int keyio_init(void)$/;"	f	file:
+keyio_init	irq/tasklet.c	/^static int keyio_init(void)$/;"	f	file:
+keyio_init	irq/work.c	/^static int keyio_init(void)$/;"	f	file:
+keyio_init	key/key.c	/^static int keyio_init(void)$/;"	f	file:
+keyio_init	noblockio/noblockio.c	/^static int keyio_init(void)$/;"	f	file:
+keyirq	input/input.c	/^	struct irq_keydesc	keyirq[KEY_NUM];$/;"	m	struct:keyinput_dev	typeref:struct:keyinput_dev::irq_keydesc	file:
+keyvalue	blockio/blockio.c	/^        atomic_t                keyvalue;       \/\/有效的按键键值$/;"	m	struct:irq_dev	file:
+keyvalue	fasyncnoti/fasyncnoti.c	/^        atomic_t                keyvalue;       \/\/有效的按键键值$/;"	m	struct:irq_dev	file:
+keyvalue	irq/irq.c	/^        atomic_t                keyvalue;       \/\/有效的按键键值$/;"	m	struct:irq_dev	file:
+keyvalue	irq/tasklet.c	/^        atomic_t                keyvalue;       \/\/有效的按键键值$/;"	m	struct:irq_dev	file:
+keyvalue	irq/work.c	/^        atomic_t                keyvalue;       \/\/有效的按键键值$/;"	m	struct:irq_dev	file:
+keyvalue	key/key.c	/^        atomic_t        keyvalue;$/;"	m	struct:key_dev	file:
+keyvalue	noblockio/noblockio.c	/^        atomic_t                keyvalue;       \/\/有效的按键键值$/;"	m	struct:irq_dev	file:
+led0	dtsplatform/leddriver.c	/^        int     led0;                   \/\/gpio号$/;"	m	struct:leddev_dev	file:
+led0_switch	dtsplatform/leddriver.c	/^void led0_switch(u8 sta)$/;"	f
+led0_switch	platform/leddriver.c	/^void led0_switch(u8 sta)$/;"	f
+led_driver	dtsplatform/leddriver.c	/^static struct platform_driver led_driver = {$/;"	v	typeref:struct:platform_driver	file:
+led_driver	miscled/miscled.c	/^static struct platform_driver led_driver = {$/;"	v	typeref:struct:platform_driver	file:
+led_driver	platform/leddriver.c	/^static struct platform_driver led_driver = {$/;"	v	typeref:struct:platform_driver	file:
+led_exit	atomic/atomic.c	/^module_exit(led_exit);$/;"	v
+led_exit	atomic/atomic.c	/^static void __exit led_exit(void)$/;"	f	file:
+led_exit	dtsled/dtsled.c	/^module_exit(led_exit);$/;"	v
+led_exit	dtsled/dtsled.c	/^static void __exit led_exit(void)$/;"	f	file:
+led_exit	gpioled/gpioled.c	/^module_exit(led_exit);$/;"	v
+led_exit	gpioled/gpioled.c	/^static void __exit led_exit(void)$/;"	f	file:
+led_exit	led/led.c	/^module_exit(led_exit);$/;"	v
+led_exit	led/led.c	/^static void __exit led_exit(void)$/;"	f	file:
+led_exit	mutex/mutex.c	/^module_exit(led_exit);$/;"	v
+led_exit	mutex/mutex.c	/^static void __exit led_exit(void)$/;"	f	file:
+led_exit	newcharled/led.c	/^module_exit(led_exit);$/;"	v
+led_exit	newcharled/led.c	/^static void __exit led_exit(void)$/;"	f	file:
+led_exit	semaphore/semaphore.c	/^module_exit(led_exit);$/;"	v
+led_exit	semaphore/semaphore.c	/^static void __exit led_exit(void)$/;"	f	file:
+led_exit	spinlock/spinlock.c	/^module_exit(led_exit);$/;"	v
+led_exit	spinlock/spinlock.c	/^static void __exit led_exit(void)$/;"	f	file:
+led_fops	led/led.c	/^static struct file_operations led_fops = {$/;"	v	typeref:struct:file_operations	file:
+led_fops	mutex/mutex.c	/^struct file_operations led_fops = {$/;"	v	typeref:struct:file_operations
+led_fops	newcharled/led.c	/^static struct file_operations led_fops = {$/;"	v	typeref:struct:file_operations	file:
+led_fops	semaphore/semaphore.c	/^struct file_operations led_fops = {$/;"	v	typeref:struct:file_operations
+led_fops	spinlock/spinlock.c	/^struct file_operations led_fops = {$/;"	v	typeref:struct:file_operations
+led_gpio	timer/timer.c	/^        int                     led_gpio;$/;"	m	struct:timer_dev	file:
+led_init	atomic/atomic.c	/^module_init(led_init);$/;"	v
+led_init	atomic/atomic.c	/^static int __init led_init(void)$/;"	f	file:
+led_init	dtsled/dtsled.c	/^module_init(led_init);$/;"	v
+led_init	dtsled/dtsled.c	/^static int __init led_init(void)$/;"	f	file:
+led_init	gpioled/gpioled.c	/^module_init(led_init);$/;"	v
+led_init	gpioled/gpioled.c	/^static int __init led_init(void)$/;"	f	file:
+led_init	led/led.c	/^module_init(led_init);$/;"	v
+led_init	led/led.c	/^static int __init led_init(void)$/;"	f	file:
+led_init	mutex/mutex.c	/^module_init(led_init);$/;"	v
+led_init	mutex/mutex.c	/^static int __init led_init(void)$/;"	f	file:
+led_init	newcharled/led.c	/^module_init(led_init);$/;"	v
+led_init	newcharled/led.c	/^static int __init led_init(void)$/;"	f	file:
+led_init	semaphore/semaphore.c	/^module_init(led_init);$/;"	v
+led_init	semaphore/semaphore.c	/^static int __init led_init(void)$/;"	f	file:
+led_init	spinlock/spinlock.c	/^module_init(led_init);$/;"	v
+led_init	spinlock/spinlock.c	/^static int __init led_init(void)$/;"	f	file:
+led_init	timer/timer.c	/^static int led_init(void)$/;"	f	file:
+led_match_table	dtsplatform/leddriver.c	/^static const struct of_device_id led_match_table[] = {$/;"	v	typeref:struct:of_device_id	file:
+led_miscdev	miscled/miscled.c	/^static struct miscdevice led_miscdev = {$/;"	v	typeref:struct:miscdevice	file:
+led_of_match	miscled/miscled.c	/^static const struct of_device_id led_of_match[] = {$/;"	v	typeref:struct:of_device_id	file:
+led_open	atomic/atomic.c	/^static int led_open(struct inode *inode, struct file *filp)$/;"	f	file:
+led_open	dtsled/dtsled.c	/^static int led_open(struct inode *inode, struct file *filp)$/;"	f	file:
+led_open	dtsplatform/leddriver.c	/^static int led_open(struct inode *inode, struct file *filp)$/;"	f	file:
+led_open	gpioled/gpioled.c	/^static int led_open(struct inode *inode, struct file *filp)$/;"	f	file:
+led_open	led/led.c	/^static int led_open(struct inode *inode, struct file *filp)$/;"	f	file:
+led_open	miscled/miscled.c	/^static int led_open(struct inode *inode, struct file *filp)$/;"	f	file:
+led_open	mutex/mutex.c	/^static int led_open(struct inode *inode, struct file *filp)$/;"	f	file:
+led_open	newcharled/led.c	/^static int led_open(struct inode *inode, struct file *filp)$/;"	f	file:
+led_open	platform/leddriver.c	/^static int led_open(struct inode *inode, struct file *filp)$/;"	f	file:
+led_open	semaphore/semaphore.c	/^static int led_open(struct inode *inode, struct file *filp)$/;"	f	file:
+led_open	spinlock/spinlock.c	/^static int led_open(struct inode *inode, struct file *filp)$/;"	f	file:
+led_probe	dtsplatform/leddriver.c	/^static int led_probe(struct platform_device *dev)$/;"	f	file:
+led_probe	miscled/miscled.c	/^static int led_probe(struct platform_device *dev)$/;"	f	file:
+led_probe	platform/leddriver.c	/^static int led_probe(struct platform_device *dev)$/;"	f	file:
+led_read	atomic/atomic.c	/^static ssize_t led_read(struct file *filp, char __user *buf, size_t cnt, loff_t *offt)$/;"	f	file:
+led_read	dtsled/dtsled.c	/^static ssize_t led_read(struct file *filp, char __user *buf, size_t cnt, loff_t *offt)$/;"	f	file:
+led_read	gpioled/gpioled.c	/^static ssize_t led_read(struct file *filp, char __user *buf, size_t cnt, loff_t *offt)$/;"	f	file:
+led_read	led/led.c	/^static ssize_t led_read(struct file *filp, char __user *buf, size_t cnt, loff_t *offt)$/;"	f	file:
+led_read	mutex/mutex.c	/^static ssize_t led_read(struct file *filp, char __user *buf, size_t cnt, loff_t *offt)$/;"	f	file:
+led_read	newcharled/led.c	/^static ssize_t led_read(struct file *filp, char __user *buf, size_t cnt, loff_t *offt)$/;"	f	file:
+led_read	semaphore/semaphore.c	/^static ssize_t led_read(struct file *filp, char __user *buf, size_t cnt, loff_t *offt)$/;"	f	file:
+led_read	spinlock/spinlock.c	/^static ssize_t led_read(struct file *filp, char __user *buf, size_t cnt, loff_t *offt)$/;"	f	file:
+led_release	atomic/atomic.c	/^static int led_release(struct inode *inode, struct file *filp)$/;"	f	file:
+led_release	dtsled/dtsled.c	/^static int led_release(struct inode *inode, struct file *filp)$/;"	f	file:
+led_release	gpioled/gpioled.c	/^static int led_release(struct inode *inode, struct file *filp)$/;"	f	file:
+led_release	mutex/mutex.c	/^static int led_release(struct inode *inode, struct file *filp)$/;"	f	file:
+led_release	platform/leddevice.c	/^static void led_release(struct device *dev)$/;"	f	file:
+led_release	semaphore/semaphore.c	/^static int led_release(struct inode *inode, struct file *filp)$/;"	f	file:
+led_release	spinlock/spinlock.c	/^static int led_release(struct inode *inode, struct file *filp)$/;"	f	file:
+led_remove	dtsplatform/leddriver.c	/^static int led_remove(struct platform_device *dev)$/;"	f	file:
+led_remove	miscled/miscled.c	/^static int led_remove(struct platform_device *dev)$/;"	f	file:
+led_remove	platform/leddriver.c	/^static int led_remove(struct platform_device *dev)$/;"	f	file:
+led_resources	platform/leddevice.c	/^static struct resource led_resources[] = {$/;"	v	typeref:struct:resource	file:
+led_switch	dtsled/dtsled.c	/^static void led_switch(u8 sta)$/;"	f	file:
+led_switch	led/led.c	/^void led_switch(u8 sta)$/;"	f
+led_switch	newcharled/led.c	/^void led_switch(u8 sta)$/;"	f
+led_write	atomic/atomic.c	/^static ssize_t led_write(struct file *filp, const char __user *buf, size_t cnt, loff_t *offt)$/;"	f	file:
+led_write	dtsled/dtsled.c	/^static ssize_t led_write(struct file *filp, const char __user *buf, size_t cnt, loff_t *offt)$/;"	f	file:
+led_write	dtsplatform/leddriver.c	/^static ssize_t led_write(struct file *filp, const char __user *buf, size_t cnt, loff_t *offt)$/;"	f	file:
+led_write	gpioled/gpioled.c	/^static ssize_t led_write(struct file *filp, const char __user *buf, size_t cnt, loff_t *offt)$/;"	f	file:
+led_write	led/led.c	/^static ssize_t led_write(struct file *filp, const char __user *buf, size_t cnt, loff_t *offt)$/;"	f	file:
+led_write	miscled/miscled.c	/^static ssize_t led_write(struct file *filp, const char __user *buf, size_t cnt, loff_t *offt)$/;"	f	file:
+led_write	mutex/mutex.c	/^static ssize_t led_write(struct file *filp, const char __user *buf, size_t cnt, loff_t *offt)$/;"	f	file:
+led_write	newcharled/led.c	/^static ssize_t led_write(struct file *filp, const char __user *buf, size_t cnt, loff_t *offt)$/;"	f	file:
+led_write	platform/leddriver.c	/^static ssize_t led_write(struct file *filp, const char __user *buf, size_t cnt, loff_t *offt)$/;"	f	file:
+led_write	semaphore/semaphore.c	/^static ssize_t led_write(struct file *filp, const char __user *buf, size_t cnt, loff_t *offt)$/;"	f	file:
+led_write	spinlock/spinlock.c	/^static ssize_t led_write(struct file *filp, const char __user *buf, size_t cnt, loff_t *offt)$/;"	f	file:
+leddev	dtsplatform/leddriver.c	/^struct leddev_dev leddev;$/;"	v	typeref:struct:leddev_dev
+leddev	platform/leddriver.c	/^struct leddev_dev leddev;$/;"	v	typeref:struct:leddev_dev
+leddev_dev	dtsplatform/leddriver.c	/^struct leddev_dev {$/;"	s	file:
+leddev_dev	platform/leddriver.c	/^struct leddev_dev {$/;"	s	file:
+leddevice	platform/leddevice.c	/^static struct platform_device leddevice = {$/;"	v	typeref:struct:platform_device	file:
+leddevice_exit	platform/leddevice.c	/^module_exit(leddevice_exit);$/;"	v
+leddevice_exit	platform/leddevice.c	/^static void __exit leddevice_exit(void)$/;"	f	file:
+leddevice_init	platform/leddevice.c	/^module_init(leddevice_init);$/;"	v
+leddevice_init	platform/leddevice.c	/^static int __init leddevice_init(void)$/;"	f	file:
+leddriver_exit	dtsplatform/leddriver.c	/^module_exit(leddriver_exit);$/;"	v
+leddriver_exit	dtsplatform/leddriver.c	/^static void __exit leddriver_exit(void)$/;"	f	file:
+leddriver_exit	platform/leddriver.c	/^module_exit(leddriver_exit);$/;"	v
+leddriver_exit	platform/leddriver.c	/^static void __exit leddriver_exit(void)$/;"	f	file:
+leddriver_init	dtsplatform/leddriver.c	/^module_init(leddriver_init);$/;"	v
+leddriver_init	dtsplatform/leddriver.c	/^static int __init leddriver_init(void)$/;"	f	file:
+leddriver_init	platform/leddriver.c	/^module_init(leddriver_init);$/;"	v
+leddriver_init	platform/leddriver.c	/^static int __init leddriver_init(void)$/;"	f	file:
+lock	atomic/atomic.c	/^        atomic_t lock;                  \/*原子变量*\/$/;"	m	struct:gpioled_dev	file:
+lock	mutex/mutex.c	/^        struct mutex lock;$/;"	m	struct:gpioled_dev	typeref:struct:gpioled_dev::mutex	file:
+lock	spinlock/spinlock.c	/^        spinlock_t lock;                  \/*自旋锁变量 保护available变量，用available保护进程独占，而不是spinlock，防止长时间读写时其它大量进程自旋等待浪费cpu 自旋只发生在某进程正在操作available时，其它进程自旋*\/$/;"	m	struct:gpioled_dev	file:
+lock	timer/timer.c	/^        spinlock_t              lock;$/;"	m	struct:timer_dev	file:
+main	atomic/atomicApp.c	/^int main(int argc, char* argv[])$/;"	f
+main	blockio/blockioApp.c	/^int main(int argc, char *argv[])$/;"	f
+main	chrdevbase/chrdevbaseApp.c	/^int main(int argc, char *argv[])$/;"	f
+main	dtsled/ledApp.c	/^int main(int argc, char *argv[])$/;"	f
+main	dtsplatform/ledApp.c	/^int main(int argc, char *argv[])$/;"	f
+main	fasyncnoti/fasyncnotiApp.c	/^int main(int argc, char *argv[])$/;"	f
+main	iic/ap3216cApp.c	/^int main(int argc, char *argv[])$/;"	f
+main	input/inputApp.c	/^int main(int argc, char *argv[])$/;"	f
+main	irq/irqApp.c	/^int main(int argc, char *argv[])$/;"	f
+main	key/keyApp.c	/^int main(int argc, char *argv[])$/;"	f
+main	led/ledApp.c	/^int main(int argc, char *argv[])$/;"	f
+main	miscled/ledApp.c	/^int main(int argc, char *argv[])$/;"	f
+main	mutex/mutexApp.c	/^int main(int argc, char* argv[])$/;"	f
+main	newcharled/ledApp.c	/^int main(int argc, char *argv[])$/;"	f
+main	noblockio/noblockioApp.c	/^int main(int argc, char *argv[])$/;"	f
+main	platform/ledApp.c	/^int main(int argc, char *argv[])$/;"	f
+main	semaphore/semaphoreApp.c	/^int main(int argc, char* argv[])$/;"	f
+main	spi/icm20608App.c	/^int main(int argc, char *argv[])$/;"	f
+main	spinlock/spinlockApp.c	/^int main(int argc, char* argv[])$/;"	f
+main	timer/timerApp.c	/^int main(int argc, char *argv[])$/;"	f
+major	atomic/atomic.c	/^        int major;                      \/* 定义该结构体全局变量以后 major会赋0*\/$/;"	m	struct:gpioled_dev	file:
+major	blockio/blockio.c	/^        int                     major;$/;"	m	struct:irq_dev	file:
+major	dtsled/dtsled.c	/^        int major;              \/*主设备号*\/$/;"	m	struct:dtsled_dev	file:
+major	dtsplatform/leddriver.c	/^        int major;$/;"	m	struct:leddev_dev	file:
+major	fasyncnoti/fasyncnoti.c	/^        int                     major;$/;"	m	struct:irq_dev	file:
+major	gpioled/gpioled.c	/^        int major;$/;"	m	struct:gpioled_dev	file:
+major	iic/ap3216c.c	/^        int major;$/;"	m	struct:ap3216c_dev	file:
+major	iic/tmp.c	/^        int major;$/;"	m	struct:ap3216c_dev	file:
+major	irq/irq.c	/^        int                     major;$/;"	m	struct:irq_dev	file:
+major	irq/tasklet.c	/^        int                     major;$/;"	m	struct:irq_dev	file:
+major	irq/work.c	/^        int                     major;$/;"	m	struct:irq_dev	file:
+major	key/key.c	/^        int             major;$/;"	m	struct:key_dev	file:
+major	mutex/mutex.c	/^        int major;                      \/* 定义该结构体全局变量以后 major会赋0*\/$/;"	m	struct:gpioled_dev	file:
+major	newcharled/led.c	/^    int major;                      \/\/ 主设备号$/;"	m	struct:newchrled_dev	file:
+major	noblockio/noblockio.c	/^        int                     major;$/;"	m	struct:irq_dev	file:
+major	platform/leddriver.c	/^        int major;$/;"	m	struct:leddev_dev	file:
+major	semaphore/semaphore.c	/^        int major;                      \/* 定义该结构体全局变量以后 major会赋0*\/$/;"	m	struct:gpioled_dev	file:
+major	spi/icm20608.c	/^	int major;$/;"	m	struct:icm20608_dev	file:
+major	spinlock/spinlock.c	/^        int major;                      \/* 定义该结构体全局变量以后 major会赋0*\/$/;"	m	struct:gpioled_dev	file:
+major	timer/timer.c	/^        int                     major;$/;"	m	struct:timer_dev	file:
+minor	atomic/atomic.c	/^        int minor;$/;"	m	struct:gpioled_dev	file:
+minor	blockio/blockio.c	/^        int                     minor;$/;"	m	struct:irq_dev	file:
+minor	dtsled/dtsled.c	/^        int minor;              \/*次设备号*\/$/;"	m	struct:dtsled_dev	file:
+minor	fasyncnoti/fasyncnoti.c	/^        int                     minor;$/;"	m	struct:irq_dev	file:
+minor	gpioled/gpioled.c	/^        int minor;$/;"	m	struct:gpioled_dev	file:
+minor	irq/irq.c	/^        int                     minor;$/;"	m	struct:irq_dev	file:
+minor	irq/tasklet.c	/^        int                     minor;$/;"	m	struct:irq_dev	file:
+minor	irq/work.c	/^        int                     minor;$/;"	m	struct:irq_dev	file:
+minor	key/key.c	/^        int             minor;$/;"	m	struct:key_dev	file:
+minor	mutex/mutex.c	/^        int minor;$/;"	m	struct:gpioled_dev	file:
+minor	newcharled/led.c	/^    int minor;                      \/\/ 次设备号$/;"	m	struct:newchrled_dev	file:
+minor	noblockio/noblockio.c	/^        int                     minor;$/;"	m	struct:irq_dev	file:
+minor	semaphore/semaphore.c	/^        int minor;$/;"	m	struct:gpioled_dev	file:
+minor	spinlock/spinlock.c	/^        int minor;$/;"	m	struct:gpioled_dev	file:
+minor	timer/timer.c	/^        int                     minor;$/;"	m	struct:timer_dev	file:
+miscled	miscled/miscled.c	/^static struct miscled_dev miscled;$/;"	v	typeref:struct:miscled_dev	file:
+miscled_dev	miscled/miscled.c	/^struct miscled_dev {$/;"	s	file:
+miscled_exit	miscled/miscled.c	/^module_exit(miscled_exit);$/;"	v
+miscled_exit	miscled/miscled.c	/^static void __exit miscled_exit(void)$/;"	f	file:
+miscled_fops	miscled/miscled.c	/^static struct file_operations miscled_fops = {$/;"	v	typeref:struct:file_operations	file:
+miscled_init	miscled/miscled.c	/^module_init(miscled_init);$/;"	v
+miscled_init	miscled/miscled.c	/^static int __init miscled_init(void)$/;"	f	file:
+mydev	blockio/blockio.c	/^struct irq_dev mydev;$/;"	v	typeref:struct:irq_dev
+mydev	fasyncnoti/fasyncnoti.c	/^struct irq_dev mydev;$/;"	v	typeref:struct:irq_dev
+mydev	irq/irq.c	/^struct irq_dev mydev;$/;"	v	typeref:struct:irq_dev
+mydev	irq/tasklet.c	/^struct irq_dev mydev;$/;"	v	typeref:struct:irq_dev
+mydev	irq/work.c	/^struct irq_dev mydev;$/;"	v	typeref:struct:irq_dev
+mydev	noblockio/noblockio.c	/^struct irq_dev mydev;$/;"	v	typeref:struct:irq_dev
+myirq_exit	blockio/blockio.c	/^module_exit(myirq_exit);$/;"	v
+myirq_exit	blockio/blockio.c	/^static void __exit myirq_exit(void)$/;"	f	file:
+myirq_exit	fasyncnoti/fasyncnoti.c	/^module_exit(myirq_exit);$/;"	v
+myirq_exit	fasyncnoti/fasyncnoti.c	/^static void __exit myirq_exit(void)$/;"	f	file:
+myirq_exit	irq/irq.c	/^module_exit(myirq_exit);$/;"	v
+myirq_exit	irq/irq.c	/^static void __exit myirq_exit(void)$/;"	f	file:
+myirq_exit	irq/tasklet.c	/^module_exit(myirq_exit);$/;"	v
+myirq_exit	irq/tasklet.c	/^static void __exit myirq_exit(void)$/;"	f	file:
+myirq_exit	irq/work.c	/^module_exit(myirq_exit);$/;"	v
+myirq_exit	irq/work.c	/^static void __exit myirq_exit(void)$/;"	f	file:
+myirq_exit	noblockio/noblockio.c	/^module_exit(myirq_exit);$/;"	v
+myirq_exit	noblockio/noblockio.c	/^static void __exit myirq_exit(void)$/;"	f	file:
+myirq_fasync	fasyncnoti/fasyncnoti.c	/^static int myirq_fasync(int fd, struct file *filp, int on)$/;"	f	file:
+myirq_fops	blockio/blockio.c	/^static struct file_operations myirq_fops = {$/;"	v	typeref:struct:file_operations	file:
+myirq_fops	fasyncnoti/fasyncnoti.c	/^static struct file_operations myirq_fops = {$/;"	v	typeref:struct:file_operations	file:
+myirq_fops	irq/irq.c	/^static struct file_operations myirq_fops = {$/;"	v	typeref:struct:file_operations	file:
+myirq_fops	irq/tasklet.c	/^static struct file_operations myirq_fops = {$/;"	v	typeref:struct:file_operations	file:
+myirq_fops	irq/work.c	/^static struct file_operations myirq_fops = {$/;"	v	typeref:struct:file_operations	file:
+myirq_fops	noblockio/noblockio.c	/^static struct file_operations myirq_fops = {$/;"	v	typeref:struct:file_operations	file:
+myirq_init	blockio/blockio.c	/^module_init(myirq_init);$/;"	v
+myirq_init	blockio/blockio.c	/^static int __init myirq_init(void)$/;"	f	file:
+myirq_init	fasyncnoti/fasyncnoti.c	/^module_init(myirq_init);$/;"	v
+myirq_init	fasyncnoti/fasyncnoti.c	/^static int __init myirq_init(void)$/;"	f	file:
+myirq_init	irq/irq.c	/^module_init(myirq_init);$/;"	v
+myirq_init	irq/irq.c	/^static int __init myirq_init(void)$/;"	f	file:
+myirq_init	irq/tasklet.c	/^module_init(myirq_init);$/;"	v
+myirq_init	irq/tasklet.c	/^static int __init myirq_init(void)$/;"	f	file:
+myirq_init	irq/work.c	/^module_init(myirq_init);$/;"	v
+myirq_init	irq/work.c	/^static int __init myirq_init(void)$/;"	f	file:
+myirq_init	noblockio/noblockio.c	/^module_init(myirq_init);$/;"	v
+myirq_init	noblockio/noblockio.c	/^static int __init myirq_init(void)$/;"	f	file:
+myirq_open	blockio/blockio.c	/^static int myirq_open(struct inode *inode, struct file *filp)$/;"	f	file:
+myirq_open	fasyncnoti/fasyncnoti.c	/^static int myirq_open(struct inode *inode, struct file *filp)$/;"	f	file:
+myirq_open	irq/irq.c	/^static int myirq_open(struct inode *inode, struct file *filp)$/;"	f	file:
+myirq_open	irq/tasklet.c	/^static int myirq_open(struct inode *inode, struct file *filp)$/;"	f	file:
+myirq_open	irq/work.c	/^static int myirq_open(struct inode *inode, struct file *filp)$/;"	f	file:
+myirq_open	noblockio/noblockio.c	/^static int myirq_open(struct inode *inode, struct file *filp)$/;"	f	file:
+myirq_poll	noblockio/noblockio.c	/^unsigned int myirq_poll(struct file *filp, struct poll_table_struct *wait)$/;"	f
+myirq_read	blockio/blockio.c	/^static ssize_t myirq_read(struct file *filp, char __user *buf, size_t cnt, loff_t *offt)$/;"	f	file:
+myirq_read	fasyncnoti/fasyncnoti.c	/^static ssize_t myirq_read(struct file *filp, char __user *buf, size_t cnt, loff_t *offt)$/;"	f	file:
+myirq_read	irq/irq.c	/^static ssize_t myirq_read(struct file *filp, char __user *buf, size_t cnt, loff_t *offt)$/;"	f	file:
+myirq_read	irq/tasklet.c	/^static ssize_t myirq_read(struct file *filp, char __user *buf, size_t cnt, loff_t *offt)$/;"	f	file:
+myirq_read	irq/work.c	/^static ssize_t myirq_read(struct file *filp, char __user *buf, size_t cnt, loff_t *offt)$/;"	f	file:
+myirq_read	noblockio/noblockio.c	/^static ssize_t myirq_read(struct file *filp, char __user *buf, size_t cnt, loff_t *offt)$/;"	f	file:
+myirq_release	fasyncnoti/fasyncnoti.c	/^static int myirq_release(struct inode *inode, struct file *filp)$/;"	f	file:
+mykey_exit	key/key.c	/^module_exit(mykey_exit);$/;"	v
+mykey_exit	key/key.c	/^static void __exit mykey_exit(void)$/;"	f	file:
+mykey_init	key/key.c	/^module_init(mykey_init);$/;"	v
+mykey_init	key/key.c	/^static int __init mykey_init(void)$/;"	f	file:
+name	blockio/blockio.c	/^        char    name[10];       \/\/按键名字$/;"	m	struct:irq_keydesc	file:
+name	fasyncnoti/fasyncnoti.c	/^        char    name[10];       \/\/按键名字$/;"	m	struct:irq_keydesc	file:
+name	input/input.c	/^	char name[10];$/;"	m	struct:irq_keydesc	file:
+name	irq/irq.c	/^        char    name[10];       \/\/按键名字$/;"	m	struct:irq_keydesc	file:
+name	irq/tasklet.c	/^        char    name[10];       \/\/按键名字$/;"	m	struct:irq_keydesc	file:
+name	irq/work.c	/^        char    name[10];       \/\/按键名字$/;"	m	struct:irq_keydesc	file:
+name	noblockio/noblockio.c	/^        char    name[10];       \/\/按键名字$/;"	m	struct:irq_keydesc	file:
+nd	iic/ap3216c.c	/^        struct device_node *nd;$/;"	m	struct:ap3216c_dev	typeref:struct:ap3216c_dev::device_node	file:
+nd	iic/tmp.c	/^        struct device_node *nd;$/;"	m	struct:ap3216c_dev	typeref:struct:ap3216c_dev::device_node	file:
+nd	key/key.c	/^        struct device_node      *nd;$/;"	m	struct:key_dev	typeref:struct:key_dev::device_node	file:
+nd	spi/icm20608.c	/^	struct device_node	*nd;$/;"	m	struct:icm20608_dev	typeref:struct:icm20608_dev::device_node	file:
+nd	timer/timer.c	/^        struct device_node      *nd;$/;"	m	struct:timer_dev	typeref:struct:timer_dev::device_node	file:
+newchrled	newcharled/led.c	/^struct newchrled_dev newchrled;     \/\/ 定义一个led的设备$/;"	v	typeref:struct:newchrled_dev
+newchrled_dev	newcharled/led.c	/^struct newchrled_dev {$/;"	s	file:
+node	blockio/blockio.c	/^        struct device_node      *node;$/;"	m	struct:irq_dev	typeref:struct:irq_dev::device_node	file:
+node	dtsled/dtsled.c	/^        struct device_node *node; \/*设备节点*\/$/;"	m	struct:dtsled_dev	typeref:struct:dtsled_dev::device_node	file:
+node	dtsplatform/leddriver.c	/^        struct device_node *node;$/;"	m	struct:leddev_dev	typeref:struct:leddev_dev::device_node	file:
+node	fasyncnoti/fasyncnoti.c	/^        struct device_node      *node;$/;"	m	struct:irq_dev	typeref:struct:irq_dev::device_node	file:
+node	input/input.c	/^	struct device_node	*node;$/;"	m	struct:keyinput_dev	typeref:struct:keyinput_dev::device_node	file:
+node	irq/irq.c	/^        struct device_node      *node;$/;"	m	struct:irq_dev	typeref:struct:irq_dev::device_node	file:
+node	irq/tasklet.c	/^        struct device_node      *node;$/;"	m	struct:irq_dev	typeref:struct:irq_dev::device_node	file:
+node	irq/work.c	/^        struct device_node      *node;$/;"	m	struct:irq_dev	typeref:struct:irq_dev::device_node	file:
+node	noblockio/noblockio.c	/^        struct device_node      *node;$/;"	m	struct:irq_dev	typeref:struct:irq_dev::device_node	file:
+obj-m	atomic/Makefile	/^obj-m := atomic.o$/;"	m
+obj-m	blockio/Makefile	/^obj-m := blockio.o$/;"	m
+obj-m	chrdevbase/Makefile	/^obj-m := chrdevbase.o$/;"	m
+obj-m	dtsled/Makefile	/^obj-m := dtsled.o$/;"	m
+obj-m	dtsplatform/Makefile	/^obj-m := leddriver.o$/;"	m
+obj-m	fasyncnoti/Makefile	/^obj-m := fasyncnoti.o$/;"	m
+obj-m	gpioled/Makefile	/^obj-m := gpioled.o$/;"	m
+obj-m	iic/Makefile	/^obj-m := ap3216c.o$/;"	m
+obj-m	input/Makefile	/^obj-m := input.o$/;"	m
+obj-m	irq/Makefile	/^obj-m := irq.o tasklet.o work.o$/;"	m
+obj-m	key/Makefile	/^obj-m := key.o$/;"	m
+obj-m	led/Makefile	/^obj-m := led.o$/;"	m
+obj-m	miscled/Makefile	/^obj-m := miscled.o$/;"	m
+obj-m	mutex/Makefile	/^obj-m := mutex.o$/;"	m
+obj-m	newcharled/Makefile	/^obj-m := led.o$/;"	m
+obj-m	noblockio/Makefile	/^obj-m := noblockio.o$/;"	m
+obj-m	semaphore/Makefile	/^obj-m := semaphore.o$/;"	m
+obj-m	spi/Makefile	/^obj-m := icm20608.o$/;"	m
+obj-m	spinlock/Makefile	/^obj-m := spinlock.o$/;"	m
+obj-m	timer/Makefile	/^obj-m := timer.o$/;"	m
+pnode	atomic/atomic.c	/^        struct device_node *pnode;$/;"	m	struct:gpioled_dev	typeref:struct:gpioled_dev::device_node	file:
+pnode	gpioled/gpioled.c	/^        struct device_node *pnode;$/;"	m	struct:gpioled_dev	typeref:struct:gpioled_dev::device_node	file:
+pnode	miscled/miscled.c	/^        struct device_node *pnode;$/;"	m	struct:miscled_dev	typeref:struct:miscled_dev::device_node	file:
+pnode	mutex/mutex.c	/^        struct device_node *pnode;$/;"	m	struct:gpioled_dev	typeref:struct:gpioled_dev::device_node	file:
+pnode	semaphore/semaphore.c	/^        struct device_node *pnode;$/;"	m	struct:gpioled_dev	typeref:struct:gpioled_dev::device_node	file:
+pnode	spinlock/spinlock.c	/^        struct device_node *pnode;$/;"	m	struct:gpioled_dev	typeref:struct:gpioled_dev::device_node	file:
+private_data	iic/ap3216c.c	/^        void *private_data;     \/\/ 自定义设备结构体的私有数据 放client地址 client从probe里获取$/;"	m	struct:ap3216c_dev	file:
+private_data	iic/tmp.c	/^        void *private_data;     \/\/ 自定义设备结构体的私有数据 放client地址 client从probe里获取$/;"	m	struct:ap3216c_dev	file:
+private_data	spi/icm20608.c	/^	void *private_data;			\/* 私有数据 放spi_device的指针 从probe形参里得到值 读写都需要这个 这里大可以换个名字 和filp->private_data重名纯属巧合*\/$/;"	m	struct:icm20608_dev	file:
+ps	iic/ap3216c.c	/^        unsigned short ir, als, ps;     \/\/ 三个光传感数据$/;"	m	struct:ap3216c_dev	file:
+ps	iic/tmp.c	/^        unsigned short ir, als, ps;     \/\/ 三个光传感数据$/;"	m	struct:ap3216c_dev	file:
+r_wait	blockio/blockio.c	/^        wait_queue_head_t       r_wait;         \/\/ 读等待队列头$/;"	m	struct:irq_dev	file:
+r_wait	noblockio/noblockio.c	/^        wait_queue_head_t       r_wait;         \/\/ 读等待队列头$/;"	m	struct:irq_dev	file:
+readbuf	chrdevbase/chrdevbase.c	/^static char readbuf[100];$/;"	v	file:
+releasekey	blockio/blockio.c	/^        atomic_t                releasekey;     \/\/标记是否完成一次按键$/;"	m	struct:irq_dev	file:
+releasekey	fasyncnoti/fasyncnoti.c	/^        atomic_t                releasekey;     \/\/标记是否完成一次按键$/;"	m	struct:irq_dev	file:
+releasekey	irq/irq.c	/^        atomic_t                releasekey;     \/\/标记是否完成一次按键$/;"	m	struct:irq_dev	file:
+releasekey	irq/tasklet.c	/^        atomic_t                releasekey;     \/\/标记是否完成一次按键$/;"	m	struct:irq_dev	file:
+releasekey	irq/work.c	/^        atomic_t                releasekey;     \/\/标记是否完成一次按键$/;"	m	struct:irq_dev	file:
+releasekey	noblockio/noblockio.c	/^        atomic_t                releasekey;     \/\/标记是否完成一次按键$/;"	m	struct:irq_dev	file:
+sem	semaphore/semaphore.c	/^        struct semaphore sem;$/;"	m	struct:gpioled_dev	typeref:struct:gpioled_dev::semaphore	file:
+sigio_func	fasyncnoti/fasyncnotiApp.c	/^static void sigio_func(int signum)$/;"	f	file:
+tasklet	irq/tasklet.c	/^        struct tasklet_struct tasklet;$/;"	m	struct:irq_keydesc	typeref:struct:irq_keydesc::tasklet_struct	file:
+tasklet_func	irq/tasklet.c	/^void tasklet_func(unsigned long data)$/;"	f
+temp_adc	spi/icm20608.c	/^	signed int temp_adc;		\/* 温度原始值 			*\/$/;"	m	struct:icm20608_dev	file:
+timeperiod	timer/timer.c	/^        int                     timeperiod;     \/\/ 定时周期 单位ms$/;"	m	struct:timer_dev	file:
+timer	blockio/blockio.c	/^        struct timer_list       timer;          \/\/定时器$/;"	m	struct:irq_dev	typeref:struct:irq_dev::timer_list	file:
+timer	fasyncnoti/fasyncnoti.c	/^        struct timer_list       timer;          \/\/定时器$/;"	m	struct:irq_dev	typeref:struct:irq_dev::timer_list	file:
+timer	input/input.c	/^	struct timer_list	timer;$/;"	m	struct:keyinput_dev	typeref:struct:keyinput_dev::timer_list	file:
+timer	irq/irq.c	/^        struct timer_list       timer;          \/\/定时器$/;"	m	struct:irq_dev	typeref:struct:irq_dev::timer_list	file:
+timer	irq/tasklet.c	/^        struct timer_list       timer;          \/\/定时器$/;"	m	struct:irq_dev	typeref:struct:irq_dev::timer_list	file:
+timer	irq/work.c	/^        struct timer_list       timer;          \/\/定时器$/;"	m	struct:irq_dev	typeref:struct:irq_dev::timer_list	file:
+timer	noblockio/noblockio.c	/^        struct timer_list       timer;          \/\/定时器$/;"	m	struct:irq_dev	typeref:struct:irq_dev::timer_list	file:
+timer	timer/timer.c	/^        struct timer_list       timer;          \/\/ 定时器$/;"	m	struct:timer_dev	typeref:struct:timer_dev::timer_list	file:
+timer_dev	timer/timer.c	/^struct timer_dev {$/;"	s	file:
+timer_exit	timer/timer.c	/^module_exit(timer_exit);$/;"	v
+timer_exit	timer/timer.c	/^static void __exit timer_exit(void)$/;"	f	file:
+timer_fops	timer/timer.c	/^static struct file_operations timer_fops = {$/;"	v	typeref:struct:file_operations	file:
+timer_function	blockio/blockio.c	/^static void timer_function(unsigned long arg)$/;"	f	file:
+timer_function	fasyncnoti/fasyncnoti.c	/^static void timer_function(unsigned long arg)$/;"	f	file:
+timer_function	input/input.c	/^static void timer_function(unsigned long arg)$/;"	f	file:
+timer_function	irq/irq.c	/^static void timer_function(unsigned long arg)$/;"	f	file:
+timer_function	irq/tasklet.c	/^static void timer_function(unsigned long arg)$/;"	f	file:
+timer_function	irq/work.c	/^static void timer_function(unsigned long arg)$/;"	f	file:
+timer_function	noblockio/noblockio.c	/^static void timer_function(unsigned long arg)$/;"	f	file:
+timer_function	timer/timer.c	/^static void timer_function(unsigned long arg)$/;"	f	file:
+timer_init	timer/timer.c	/^module_init(timer_init);$/;"	v
+timer_init	timer/timer.c	/^static int __init timer_init(void)$/;"	f	file:
+timer_open	timer/timer.c	/^static int timer_open(struct inode *inode, struct file *filp)$/;"	f	file:
+timer_unlocked_ioctl	timer/timer.c	/^static long timer_unlocked_ioctl(struct file *filp, unsigned int cmd, unsigned long arg)$/;"	f	file:
+timerdev	timer/timer.c	/^struct timer_dev timerdev;$/;"	v	typeref:struct:timer_dev
+usrdata	chrdevbase/chrdevbaseApp.c	/^static char usrdata[] = {"usr data!"};$/;"	v	file:
+value	blockio/blockio.c	/^        unsigned char value;    \/\/按键对应键值$/;"	m	struct:irq_keydesc	file:
+value	fasyncnoti/fasyncnoti.c	/^        unsigned char value;    \/\/按键对应键值$/;"	m	struct:irq_keydesc	file:
+value	input/input.c	/^	unsigned char value;				\/\/ 按键值 如键盘0键的0$/;"	m	struct:irq_keydesc	file:
+value	irq/irq.c	/^        unsigned char value;    \/\/按键对应键值$/;"	m	struct:irq_keydesc	file:
+value	irq/tasklet.c	/^        unsigned char value;    \/\/按键对应键值$/;"	m	struct:irq_keydesc	file:
+value	irq/work.c	/^        unsigned char value;    \/\/按键对应键值$/;"	m	struct:irq_keydesc	file:
+value	noblockio/noblockio.c	/^        unsigned char value;    \/\/按键对应键值$/;"	m	struct:irq_keydesc	file:
+work	irq/work.c	/^        struct work_struct work;$/;"	m	struct:irq_keydesc	typeref:struct:irq_keydesc::work_struct	file:
+work_func	irq/work.c	/^static void work_func(struct work_struct *work)$/;"	f	file:
+writebuf	chrdevbase/chrdevbase.c	/^static char writebuf[100];$/;"	v	file:

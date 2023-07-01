@@ -24,13 +24,14 @@ int main(int argc, char *argv[])
         }
 
         filename = argv[1];
-        fd = open(filename, O_RDWR);
+        fd = open(filename, O_RDWR|O_NONBLOCK);
         if (fd < 0) {
                 printf("open %s failed\r\n", filename);
                 return -1;
         }
 
         while (1) {
+                sleep(1);
                 ret = read(fd, &data, sizeof(data));
                 if (ret < 0) {
 
@@ -38,6 +39,7 @@ int main(int argc, char *argv[])
                         if (data)
                                 printf("key value = %#X\r\n", data);
                 }
+                printf("one read\r\n");
         }
         close(fd);
         return ret;

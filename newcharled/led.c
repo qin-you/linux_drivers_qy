@@ -1,11 +1,3 @@
-/*
- * @Author: You Qin
- * @Date: 2023-03-20 09:25:14
- * @LastEditTime: 2023-03-21 11:23:47
- * @FilePath: /Linux_Drivers/newcharled/led.c
- * @Description: arm开发板led灯驱动
- * ctrl+h+e增加header，ctrl+h+f增加光标所在function的注释
- */
 #include <linux/types.h>
 #include <linux/kernel.h>
 #include <linux/delay.h>
@@ -18,6 +10,11 @@
 #include <asm/mach/map.h>
 #include <asm/uaccess.h>
 #include <asm/io.h>
+
+/******************************************************************
+ * led驱动 不使用pinctrl gpio子系统 手动初始化电气 复用 gpio寄存器
+ * 使用新的驱动注册方式register_chrdev_region而不是老的register_chrdev
+*******************************************************************/
 
 #define NEWCHRLED_CNT 1                 // 设备号个数
 #define NEWCHRLED_NAME "newchrled"

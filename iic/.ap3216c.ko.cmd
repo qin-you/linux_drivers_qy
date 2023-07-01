@@ -1,0 +1,1 @@
+cmd_/home/ubuntu/linux_drivers_qy/iic/ap3216c.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/ubuntu/linux_drivers_qy/iic/ap3216c.ko /home/ubuntu/linux_drivers_qy/iic/ap3216c.o /home/ubuntu/linux_drivers_qy/iic/ap3216c.mod.o

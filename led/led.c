@@ -1,11 +1,3 @@
-/*
- * @Author: You Qin
- * @Date: 2023-03-20 09:25:14
- * @LastEditTime: 2023-03-21 08:58:34
- * @FilePath: /Linux_Drivers/led/led.c
- * @Description: arm开发板led灯驱动
- * ctrl+h+e增加header，ctrl+h+f增加光标所在function的注释
- */
 #include <linux/types.h>
 #include <linux/kernel.h>
 #include <linux/delay.h>
@@ -19,18 +11,25 @@
 #include <asm/uaccess.h>
 #include <asm/io.h>
 
+/*********************************************************************
+ * led驱动 还没学到pinctrl子系统 需要手动设置复用 电气寄存器以初始化 
+ * 还没学到gpio子系统需要手动设置gpio寄存器
+ * 本实验注册驱动用的老api register_chrdev 而不是register_chrdev_region
+**********************************************************************/
+
 #define LED_MAJOR 200
 #define LED_NAME "led"
 
-#define LEDOFF 0
-#define LEDON 1
+#define LEDOFF  0
+#define LEDON   1
 
-#define CCM_CCGR1_BASE (0X020C406C)
-#define SW_MUX_GPIO1_IO03_BASE (0X020E0068)
-#define SW_PAD_GPIO1_IO03_BASE (0X020E02F4)
-#define GPIO1_DR_BASE (0X0209C000)
-#define GPIO1_GDIR_BASE (0X0209C004)
+#define CCM_CCGR1_BASE          (0X020C406C)
+#define SW_MUX_GPIO1_IO03_BASE  (0X020E0068)
+#define SW_PAD_GPIO1_IO03_BASE  (0X020E02F4)
+#define GPIO1_DR_BASE           (0X0209C000)
+#define GPIO1_GDIR_BASE         (0X0209C004)
 
+/*声明和定义几个变量 用来存放映射到虚拟内存空间的寄存器地址*/
 static void __iomem * IMX6U_CCM_CCGR1;
 static void __iomem * SW_MUX_GPIO1_IO03;
 static void __iomem * SW_PAD_GPIO1_IO03;
@@ -43,6 +42,7 @@ void led_switch(u8 sta)
     val = readl(GPIO1_DR);
     if (sta == LEDON) {
         val &= ~(1 << 3);
+        /*写io内存一般用writel writeb writew，直接赋值会报错*/
         writel(val, GPIO1_DR);
     } else if(sta == LEDOFF) {
         val |= (1 << 3);

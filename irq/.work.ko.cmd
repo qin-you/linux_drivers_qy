@@ -1,1 +1,0 @@
-cmd_/home/ubuntu/linux_drivers_qy/irq/work.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/ubuntu/linux_drivers_qy/irq/work.ko /home/ubuntu/linux_drivers_qy/irq/work.o /home/ubuntu/linux_drivers_qy/irq/work.mod.o

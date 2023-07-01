@@ -1,11 +1,3 @@
-/*
- * @Author: You Qin
- * @Date: 2023-03-20 15:13:36
- * @LastEditTime: 2023-03-20 15:23:35
- * @FilePath: /Linux_Drivers/led/test.c
- * @usage:
- * @Description: test led
- */
 #include "stdio.h"
 #include "stdlib.h"
 #include "string.h"
@@ -13,6 +5,11 @@
 #include "fcntl.h"
 #include "sys/types.h"
 #include "sys/stat.h"
+
+/***********************
+ * led驱动测试
+ * usage：./ledApp /dev/led 0
+*/
 
 #define LEDOFF 0
 #define LEDON  1

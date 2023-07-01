@@ -14,16 +14,17 @@
 #include <asm/uaccess.h>
 #include <asm/io.h>
 
-/*********************************
+/*******************************************************************
  * 利用设备树提供硬件信息的led灯驱动
-*********************************/
+ * 没用pinctrl和gpio子系统 需手动初始化电气 复用 时钟寄存器以及gpio寄存器
+*********************************************************************/
 
 #define DTSLED_CNT      1               /*设备号个数*/
 #define DTSLED_NAME     "dtsled"        /*名字*/
 #define LEDOFF          0               /*关灯*/
 #define LEDON           1               /*开灯*/
 
-/*声明 映射后的寄存器虚拟地址指针 记住这5个寄存器*/
+/*声明 映射后的寄存器虚拟地址指针 */
 static void __iomem *IMX6U_CCM_CCGR1;
 static void __iomem *SW_MUX_GPIO1_IO03;
 static void __iomem *SW_PAD_GPIO1_IO03;
@@ -107,7 +108,6 @@ static int led_release(struct inode *inode, struct file *filp)
         return 0;
 }
 
-/*设备操作结构体*/
 static struct file_operations dtsled_fops = {
         .owner = THIS_MODULE,
         .open = led_open,
@@ -116,9 +116,6 @@ static struct file_operations dtsled_fops = {
         .release = led_release,
 };
 
-/**
- * 驱动入口函数
-*/
 static int __init led_init(void)
 {
         u32 val = 0;
@@ -144,7 +141,7 @@ static int __init led_init(void)
         else
                 printk("compatible = %s\r\n", (char*)proper->value);
         
-        /* 1.3 获取status属性内容 */
+        /* 1.3 获取status属性内容 不是必须*/
         ret = of_property_read_string(dtsled.node, "status", &str);
         if (ret < 0)
                 printk("status read failed\r\n");

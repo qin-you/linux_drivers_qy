@@ -19,6 +19,8 @@
         "*.tcc": "c",
         "cstdint": "c",
         "typeinfo": "c",
-        "stdlib.h": "c"
+        "stdlib.h": "c",
+        "poll.h": "c",
+        "fcntl.h": "c"
     }
 }

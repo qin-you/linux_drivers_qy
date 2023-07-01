@@ -8,5 +8,5 @@ if ! arm-linux-gnueabihf-gcc keyApp.c -o keyApp;then
         exit 2
 fi
 
-#sudo cp chrdevbase.ko /home/ubuntu/linux/nfs/rootfs/lib/modules/4.1.15/
-#sudo cp chrdevbaseApp /home/ubuntu/linux/nfs/rootfs/lib/modules/4.1.15/
+sudo cp *.ko /home/ubuntu/linux/nfs/rootfs/lib/modules/4.1.15/key/
+sudo cp *App /home/ubuntu/linux/nfs/rootfs/lib/modules/4.1.15/key/

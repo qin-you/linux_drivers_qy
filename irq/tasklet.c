@@ -19,9 +19,10 @@
 #include <asm/uaccess.h>
 #include <asm/io.h>
 
-/******************************
+/************************************************************************
  * 按键驱动（中断方式） 定时器消抖. 板子只有KEY0一个按键
-*******************************/
+ * tasklet实现的中断下半部用来启动定时器，上半部啥也不干，除了把下半部加入调度
+*************************************************************************/
 
 #define IRQ_CNT         1
 #define IRQ_NAME        "imx6uirq"
@@ -59,7 +60,6 @@ struct irq_dev {
 
 struct irq_dev mydev;
 
-/* ISR：用于启动定时器（上升下降沿都启动） 读取引脚电平在定时器处理函数中执行 */
 static irqreturn_t key0_handler(int irq, void *pdev)    
 {
         struct irq_dev *dev = (struct irq_dev *)pdev;
@@ -131,7 +131,6 @@ static int keyio_init(void)
         /* 注册中断 */
         mydev.irqkeydesc[0].value = KEY0VALUE;
         mydev.irqkeydesc[0].handler = key0_handler;             //实际只有一个按键，只需要定义一个ISR
-
         for (i = 0; i < KEY_NUM; i++) {
                 ret = request_irq(mydev.irqkeydesc[i].irqnum,
                                 mydev.irqkeydesc[i].handler,
@@ -164,7 +163,7 @@ static ssize_t myirq_read(struct file *filp, char __user *buf, size_t cnt, loff_
         unsigned char keyvalue = 0;
         unsigned char releasekey = 0;
         struct irq_dev *dev = (struct irq_dev *)filp->private_data;
-        
+
         keyvalue = atomic_read(&dev->keyvalue);
         releasekey = atomic_read(&dev->releasekey);
 

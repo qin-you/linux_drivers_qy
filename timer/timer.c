@@ -18,7 +18,7 @@
 
 /******************************
  * 定时器控制led闪烁实验
- * 用spinlock保护全局变量timerdev.timeperiod的意图不明
+ * 用spinlock保护全局变量timerdev.timeperiod，防止多进程调用造成冲突
 *******************************/
 
 #define TIMER_CNT               1

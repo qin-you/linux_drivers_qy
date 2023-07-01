@@ -15,9 +15,10 @@
 #include <asm/uaccess.h>
 #include <asm/io.h>
 
-/*******************
- * 按键驱动 
-********************/
+/***************************************************
+ * 按键驱动 没有消抖 没有中断（直接while循环直到按键弹起） 按键状态用原子变量表示，应该不是必需
+ * 测试程序一直读
+*****************************************************/
 
 #define KEY_CNT         1
 #define KEY_NAME        "key"
@@ -60,7 +61,7 @@ static int keyio_init(void)
                 printk("gpio_request error\r\n");
                 return -EINVAL;
         }
-        
+
         return 0;
 }
 
@@ -77,13 +78,14 @@ static ssize_t key_read(struct file *filp, char __user *buf, size_t cnt, loff_t 
 
         if (gpio_get_value(keydev.gpio_num) == 0) {
                 while (gpio_get_value(keydev.gpio_num) == 0);
-                // 这里原子用了全局变量存按键值，所以需要原子变量，如果这里用局部变量保存则不需要原子操作，因为内核栈不共享
-                atomic_set(&keydev.keyvalue, KEY0VALUE);
+                // atomic_set(&keydev.keyvalue, KEY0VALUE);
+                value = KEY0VALUE;
         } else {
-                atomic_set(&keydev.keyvalue, INVAKEY);
+                // atomic_set(&keydev.keyvalue, INVAKEY);
+                value = INVAKEY;
         }
 
-        value = atomic_read(&keydev.keyvalue);
+        // value = atomic_read(&keydev.keyvalue);
         ret = copy_to_user(buf, &value, sizeof(value));
 
         return ret;
