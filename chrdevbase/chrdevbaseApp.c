@@ -12,7 +12,7 @@
 16 argv[2] 2:写文件
 ***************************************************************/
 
-static char usrdata[] = {"usr data!"};
+static char usrdata[] = {"user data!"};
 
 /*
 * @description : main 主程序

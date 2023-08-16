@@ -1,8 +1,8 @@
-cmd_/home/ubuntu/linux_drivers_qy/fasyncnoti/fasyncnoti.mod.o := arm-linux-gnueabihf-gcc -Wp,-MD,/home/ubuntu/linux_drivers_qy/fasyncnoti/.fasyncnoti.mod.o.d  -nostdinc -isystem /usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.4/include -I./arch/arm/include -Iarch/arm/include/generated/uapi -Iarch/arm/include/generated  -Iinclude -I./arch/arm/include/uapi -Iarch/arm/include/generated/uapi -I./include/uapi -Iinclude/generated/uapi -include ./include/linux/kconfig.h -D__KERNEL__ -mlittle-endian -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -std=gnu89 -fno-dwarf2-cfi-asm -fno-ipa-sra -mabi=aapcs-linux -mno-thumb-interwork -mfpu=vfp -funwind-tables -marm -D__LINUX_ARM_ARCH__=7 -march=armv7-a -msoft-float -Uarm -fno-delete-null-pointer-checks -O2 --param=allow-store-data-races=0 -Wframe-larger-than=1024 -fno-stack-protector -Wno-unused-but-set-variable -fomit-frame-pointer -fno-var-tracking-assignments -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack -Werror=implicit-int -Werror=strict-prototypes -Werror=date-time -DCC_HAVE_ASM_GOTO  -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(fasyncnoti.mod)"  -D"KBUILD_MODNAME=KBUILD_STR(fasyncnoti)" -DMODULE  -c -o /home/ubuntu/linux_drivers_qy/fasyncnoti/fasyncnoti.mod.o /home/ubuntu/linux_drivers_qy/fasyncnoti/fasyncnoti.mod.c
+cmd_/home/ubuntu/linux_drivers_qy/sysfsled/dtsled.mod.o := arm-linux-gnueabihf-gcc -Wp,-MD,/home/ubuntu/linux_drivers_qy/sysfsled/.dtsled.mod.o.d  -nostdinc -isystem /usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.4/include -I./arch/arm/include -Iarch/arm/include/generated/uapi -Iarch/arm/include/generated  -Iinclude -I./arch/arm/include/uapi -Iarch/arm/include/generated/uapi -I./include/uapi -Iinclude/generated/uapi -include ./include/linux/kconfig.h -D__KERNEL__ -mlittle-endian -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -std=gnu89 -fno-dwarf2-cfi-asm -fno-ipa-sra -mabi=aapcs-linux -mno-thumb-interwork -mfpu=vfp -funwind-tables -marm -D__LINUX_ARM_ARCH__=7 -march=armv7-a -msoft-float -Uarm -fno-delete-null-pointer-checks -O2 --param=allow-store-data-races=0 -Wframe-larger-than=1024 -fno-stack-protector -Wno-unused-but-set-variable -fomit-frame-pointer -fno-var-tracking-assignments -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack -Werror=implicit-int -Werror=strict-prototypes -Werror=date-time -DCC_HAVE_ASM_GOTO  -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(dtsled.mod)"  -D"KBUILD_MODNAME=KBUILD_STR(dtsled)" -DMODULE  -c -o /home/ubuntu/linux_drivers_qy/sysfsled/dtsled.mod.o /home/ubuntu/linux_drivers_qy/sysfsled/dtsled.mod.c
 
-source_/home/ubuntu/linux_drivers_qy/fasyncnoti/fasyncnoti.mod.o := /home/ubuntu/linux_drivers_qy/fasyncnoti/fasyncnoti.mod.c
+source_/home/ubuntu/linux_drivers_qy/sysfsled/dtsled.mod.o := /home/ubuntu/linux_drivers_qy/sysfsled/dtsled.mod.c
 
-deps_/home/ubuntu/linux_drivers_qy/fasyncnoti/fasyncnoti.mod.o := \
+deps_/home/ubuntu/linux_drivers_qy/sysfsled/dtsled.mod.o := \
     $(wildcard include/config/module/unload.h) \
   include/linux/module.h \
     $(wildcard include/config/sysfs.h) \
@@ -434,6 +434,6 @@ deps_/home/ubuntu/linux_drivers_qy/fasyncnoti/fasyncnoti.mod.o := \
   include/linux/vermagic.h \
   include/generated/utsrelease.h \
 
-/home/ubuntu/linux_drivers_qy/fasyncnoti/fasyncnoti.mod.o: $(deps_/home/ubuntu/linux_drivers_qy/fasyncnoti/fasyncnoti.mod.o)
+/home/ubuntu/linux_drivers_qy/sysfsled/dtsled.mod.o: $(deps_/home/ubuntu/linux_drivers_qy/sysfsled/dtsled.mod.o)
 
-$(deps_/home/ubuntu/linux_drivers_qy/fasyncnoti/fasyncnoti.mod.o):
+$(deps_/home/ubuntu/linux_drivers_qy/sysfsled/dtsled.mod.o):

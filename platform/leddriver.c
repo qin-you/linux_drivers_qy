@@ -132,7 +132,7 @@ static int led_probe(struct platform_device *dev)
         val |= (1 << 3);
         writel(val, GPIO1_DR);
 
-        /* 3. 注册字符设备驱动 */
+        /* 3. 注册字符设备 */
         if (leddev.major) {
                 leddev.devid = MKDEV(leddev.major, 0);
                 register_chrdev_region(leddev.devid, LEDDEV_CNT, LEDDEV_NAME);

@@ -4,6 +4,7 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
+                "/usr/src/linux-headers-5.15.0-67-generic/include",
                 // "/home/ubuntu/linux/linux-imx-rel_imx_4.1.15_2.1.0_ga_transplant/build/include",
                 // "/home/ubuntu/linux/linux-imx-rel_imx_4.1.15_2.1.0_ga_transplant/arch/arm/include",
                 // "/home/ubuntu/linux/linux-imx-rel_imx_4.1.15_2.1.0_ga_transplant/arch/arm/include/generated/",

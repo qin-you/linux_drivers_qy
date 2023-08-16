@@ -1,0 +1,1 @@
+cmd_/home/ubuntu/linux_drivers_qy/sysfs_analyse/Module.symvers := sed 's/\.ko$$/\.o/' /home/ubuntu/linux_drivers_qy/sysfs_analyse/modules.order | scripts/mod/modpost -m -a  -o /home/ubuntu/linux_drivers_qy/sysfs_analyse/Module.symvers -e -i Module.symvers   -T -

@@ -1,0 +1,1 @@
+cmd_/home/ubuntu/linux_drivers_qy/sysfs_analyse/test.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/ubuntu/linux_drivers_qy/sysfs_analyse/test.ko /home/ubuntu/linux_drivers_qy/sysfs_analyse/test.o /home/ubuntu/linux_drivers_qy/sysfs_analyse/test.mod.o;  true

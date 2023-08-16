@@ -13,10 +13,10 @@
 #include <linux/types.h>
 #include <linux/delay.h>
 #include <linux/uaccess.h>
+#include <cdev.h>
+#include <device.h>
 
 
-
-#define CHRDEVBASE_MAJOR 200    // 主设备号
 #define CHRDEVBASE_NAME "chrdevbase"    // 设备名
 
 static char readbuf[100];
@@ -32,6 +32,7 @@ static char kerneldata[] = "kernel data";
  */
 static int chrdevbase_open(struct inode *inode, struct file *file)
 {
+    dump_stack();
     printk(KERN_INFO "chrdevbase_open\r\n");
     return 0;
 }
@@ -47,6 +48,7 @@ static int chrdevbase_open(struct inode *inode, struct file *file)
 static ssize_t chrdevbase_read(struct file *filp, char __user *buf, size_t count, loff_t *fpos)
 {
     int ret = 0;
+    dump_stack();
     memcpy(readbuf, kerneldata, sizeof(kerneldata));
     ret = copy_to_user(buf, readbuf, count);
     if (ret != 0) {
@@ -70,6 +72,7 @@ static ssize_t chrdevbase_read(struct file *filp, char __user *buf, size_t count
 static ssize_t chrdevbase_write(struct file *filp, const char __user *buf, size_t count, loff_t *fpos)
 {
     int ret = 0;
+    dump_stack();
     ret = copy_from_user(writebuf, buf, count);
     if (ret != 0) {
         printk(KERN_INFO "chrdevbase write failed\r\n");
@@ -89,6 +92,7 @@ static ssize_t chrdevbase_write(struct file *filp, const char __user *buf, size_
  */
 static int chrdevbase_release(struct inode *inode, struct file *filp_close)
 {
+    dump_stack();
     printk(KERN_INFO "chrdevbase_release");
     return 0;
 }
@@ -105,6 +109,11 @@ static struct file_operations fops = {
 };
 
 
+struct class *class;
+struct device *device;
+dev_t devid;
+struct cdev cdev;
+
 /**
  * @description: 模块加载函数
  * @pipeline: 1.申请设备号(注册字符设备驱动)
@@ -112,11 +121,17 @@ static struct file_operations fops = {
  */
 static int __init chrdev_init(void)
 {
-    int ret = register_chrdev(CHRDEVBASE_MAJOR, CHRDEVBASE_NAME, &fops);
-    if (ret < 0) {
-        printk(KERN_INFO "register chrdev failed\r\n");
-        return -1;
-    }
+    dump_stack();
+
+    alloc_chrdev_region(&devid, 0, 1, CHRDEVBASE_NAME);
+    
+    cdev.owner = THIS_MODULE;
+    cdev_init(&cdev, &fops);
+    cdev_add(&cdev, devid, 1);
+
+    class = class_create(THIS_MODULE, CHRDEVBASE_NAME);
+    
+    device = device_create(class, NULL, devid, NULL, CHRDEVBASE_NAME);
 
     printk(KERN_INFO "chrdev_init\r\n");
     return 0;
@@ -130,7 +145,7 @@ static int __init chrdev_init(void)
  */
 static void __exit chrdev_exit(void)
 {
-    unregister_chrdev(CHRDEVBASE_MAJOR, CHRDEVBASE_NAME);
+    unregister_chrdev_region(devid, 1);
     printk(KERN_INFO "chrdev_exit\r\n");
 }
 
