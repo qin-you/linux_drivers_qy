@@ -1,1 +1,0 @@
-cmd_/home/ubuntu/linux_drivers_qy/dtsplatform/leddriver.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/ubuntu/linux_drivers_qy/dtsplatform/leddriver.ko /home/ubuntu/linux_drivers_qy/dtsplatform/leddriver.o /home/ubuntu/linux_drivers_qy/dtsplatform/leddriver.mod.o

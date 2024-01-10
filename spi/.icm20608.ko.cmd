@@ -1,1 +1,0 @@
-cmd_/home/ubuntu/linux_drivers_qy/spi/icm20608.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/ubuntu/linux_drivers_qy/spi/icm20608.ko /home/ubuntu/linux_drivers_qy/spi/icm20608.o /home/ubuntu/linux_drivers_qy/spi/icm20608.mod.o

@@ -1,1 +1,0 @@
-cmd_/home/ubuntu/linux_drivers_qy/chrdevbase/chrdevbase.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/ubuntu/linux_drivers_qy/chrdevbase/chrdevbase.ko /home/ubuntu/linux_drivers_qy/chrdevbase/chrdevbase.o /home/ubuntu/linux_drivers_qy/chrdevbase/chrdevbase.mod.o;  true

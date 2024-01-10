@@ -1,1 +1,0 @@
-cmd_/home/ubuntu/linux_drivers_qy/timer/timer.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/ubuntu/linux_drivers_qy/timer/timer.ko /home/ubuntu/linux_drivers_qy/timer/timer.o /home/ubuntu/linux_drivers_qy/timer/timer.mod.o

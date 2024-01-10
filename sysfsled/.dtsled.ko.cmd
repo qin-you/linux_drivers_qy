@@ -1,1 +1,0 @@
-cmd_/home/ubuntu/linux_drivers_qy/sysfsled/dtsled.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/ubuntu/linux_drivers_qy/sysfsled/dtsled.ko /home/ubuntu/linux_drivers_qy/sysfsled/dtsled.o /home/ubuntu/linux_drivers_qy/sysfsled/dtsled.mod.o

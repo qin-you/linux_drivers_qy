@@ -1,1 +1,0 @@
-cmd_/home/ubuntu/linux_drivers_qy/platform/leddevice.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/ubuntu/linux_drivers_qy/platform/leddevice.ko /home/ubuntu/linux_drivers_qy/platform/leddevice.o /home/ubuntu/linux_drivers_qy/platform/leddevice.mod.o

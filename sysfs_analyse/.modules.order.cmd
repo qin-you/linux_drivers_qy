@@ -1,1 +1,0 @@
-cmd_/home/ubuntu/linux_drivers_qy/sysfs_analyse/modules.order := {   echo /home/ubuntu/linux_drivers_qy/sysfs_analyse/test.ko; :; } | awk '!x[$$0]++' - > /home/ubuntu/linux_drivers_qy/sysfs_analyse/modules.order
