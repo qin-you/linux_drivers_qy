@@ -1,0 +1,82 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AP3216C_ALSDATAHIGH	ap3216creg.h	12;"	d
+AP3216C_ALSDATALOW	ap3216creg.h	11;"	d
+AP3216C_CNT	ap3216c.c	28;"	d	file:
+AP3216C_CNT	tmp.c	28;"	d	file:
+AP3216C_H	ap3216creg.h	2;"	d
+AP3216C_IRDATAHIGH	ap3216creg.h	10;"	d
+AP3216C_IRDATALOW	ap3216creg.h	9;"	d
+AP3216C_NAME	ap3216c.c	29;"	d	file:
+AP3216C_NAME	tmp.c	29;"	d	file:
+AP3216C_PSDATAHIGH	ap3216creg.h	14;"	d
+AP3216C_PSDATALOW	ap3216creg.h	13;"	d
+AP3216C_SYSTEMCONG	ap3216creg.h	6;"	d
+BINS	Makefile	/^BINS := $(patsubst %.c,%,$(SRCS))$/;"	m
+KERNELDIR	Makefile	/^KERNELDIR := \/home\/ubuntu\/linux\/linux-imx-rel_imx_4.1.15_2.1.0_ga_transplant $/;"	m
+PWD	Makefile	/^PWD := $(shell pwd)$/;"	m
+SRCS	Makefile	/^SRCS := $(wildcard *App.c)$/;"	m
+__this_module	ap3216c.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__used	ap3216c.mod.c	/^__used$/;"	v	file:
+__used	ap3216c.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+_ap3216c_read_reg	tmp.c	/^static unsigned char _ap3216c_read_reg(struct ap3216c_dev *dev, u8 reg)$/;"	f	file:
+_ap3216c_read_regs	ap3216c.c	/^static int _ap3216c_read_regs(struct ap3216c_dev *dev, u8 reg, u8 *buf, u8 len)$/;"	f	file:
+_ap3216c_read_regs	tmp.c	/^static int _ap3216c_read_regs(struct ap3216c_dev *dev, u8 reg, u8 *buf, u8 len)$/;"	f	file:
+_ap3216c_write_reg	ap3216c.c	/^static int _ap3216c_write_reg(struct ap3216c_dev *dev, unsigned char reg, u8 val)$/;"	f	file:
+_ap3216c_write_reg	tmp.c	/^static int _ap3216c_write_reg(struct ap3216c_dev *dev, unsigned char reg, u8 val)$/;"	f	file:
+_ap3216c_write_regs	ap3216c.c	/^static int _ap3216c_write_regs(struct ap3216c_dev *dev, unsigned char reg, u8 *buf, u8 len)$/;"	f	file:
+_ap3216c_write_regs	tmp.c	/^static int _ap3216c_write_regs(struct ap3216c_dev *dev, unsigned char reg, u8 *buf, u8 len)$/;"	f	file:
+als	ap3216c.c	/^        unsigned short ir, als, ps;     \/\/ 三个光传感数据$/;"	m	struct:ap3216c_dev	file:
+als	tmp.c	/^        unsigned short ir, als, ps;     \/\/ 三个光传感数据$/;"	m	struct:ap3216c_dev	file:
+ap3216c_dev	ap3216c.c	/^struct ap3216c_dev {$/;"	s	file:
+ap3216c_dev	tmp.c	/^struct ap3216c_dev {$/;"	s	file:
+ap3216c_driver	ap3216c.c	/^static struct i2c_driver ap3216c_driver = {$/;"	v	typeref:struct:i2c_driver	file:
+ap3216c_driver	tmp.c	/^static struct i2c_driver ap3216c_driver = {$/;"	v	typeref:struct:i2c_driver	file:
+ap3216c_id	ap3216c.c	/^static const struct i2c_device_id ap3216c_id[] = {$/;"	v	typeref:struct:i2c_device_id	file:
+ap3216c_id	tmp.c	/^static const struct i2c_device_id ap3216c_id[] = {$/;"	v	typeref:struct:i2c_device_id	file:
+ap3216c_match_table	ap3216c.c	/^static const struct of_device_id ap3216c_match_table[] = {$/;"	v	typeref:struct:of_device_id	file:
+ap3216c_match_table	tmp.c	/^static const struct of_device_id ap3216c_match_table[] = {$/;"	v	typeref:struct:of_device_id	file:
+ap3216c_open	ap3216c.c	/^static int ap3216c_open(struct inode *inode, struct file *filp)$/;"	f	file:
+ap3216c_open	tmp.c	/^static int ap3216c_open(struct inode *inode, struct file *filp)$/;"	f	file:
+ap3216c_probe	ap3216c.c	/^static int ap3216c_probe(struct i2c_client *client, const struct i2c_device_id *id)$/;"	f	file:
+ap3216c_probe	tmp.c	/^static int ap3216c_probe(struct i2c_client *client, const struct i2c_device_id *id)$/;"	f	file:
+ap3216c_read	ap3216c.c	/^static ssize_t ap3216c_read(struct file *filp, char __user *buf, size_t cnt, loff_t *loff)      \/\/ buf类型固定就是char 字节 cnt是字节数$/;"	f	file:
+ap3216c_read	tmp.c	/^static ssize_t ap3216c_read(struct file *filp, char __user *buf, size_t cnt, loff_t *loff)      \/\/ buf类型固定就是char 字节 cnt是字节数$/;"	f	file:
+ap3216c_remove	ap3216c.c	/^static int ap3216c_remove(struct i2c_client *client)$/;"	f	file:
+ap3216c_remove	tmp.c	/^static int ap3216c_remove(struct i2c_client *client)$/;"	f	file:
+ap3216cdev	ap3216c.c	/^struct ap3216c_dev ap3216cdev;$/;"	v	typeref:struct:ap3216c_dev
+ap3216cdev	tmp.c	/^struct ap3216c_dev ap3216cdev;$/;"	v	typeref:struct:ap3216c_dev
+ap3216cdriver_exit	ap3216c.c	/^module_exit(ap3216cdriver_exit);$/;"	v
+ap3216cdriver_exit	ap3216c.c	/^static void __exit ap3216cdriver_exit(void)$/;"	f	file:
+ap3216cdriver_exit	tmp.c	/^module_exit(ap3216cdriver_exit);$/;"	v
+ap3216cdriver_exit	tmp.c	/^static void __exit ap3216cdriver_exit(void)$/;"	f	file:
+ap3216cdriver_init	ap3216c.c	/^module_init(ap3216cdriver_init);$/;"	v
+ap3216cdriver_init	ap3216c.c	/^static int __init ap3216cdriver_init(void)$/;"	f	file:
+ap3216cdriver_init	tmp.c	/^module_init(ap3216cdriver_init);$/;"	v
+ap3216cdriver_init	tmp.c	/^static int __init ap3216cdriver_init(void)$/;"	f	file:
+cdev	ap3216c.c	/^        struct cdev cdev;$/;"	m	struct:ap3216c_dev	typeref:struct:ap3216c_dev::cdev	file:
+cdev	tmp.c	/^        struct cdev cdev;$/;"	m	struct:ap3216c_dev	typeref:struct:ap3216c_dev::cdev	file:
+class	ap3216c.c	/^        struct class *class;$/;"	m	struct:ap3216c_dev	typeref:struct:ap3216c_dev::class	file:
+class	tmp.c	/^        struct class *class;$/;"	m	struct:ap3216c_dev	typeref:struct:ap3216c_dev::class	file:
+device	ap3216c.c	/^        struct device *device;$/;"	m	struct:ap3216c_dev	typeref:struct:ap3216c_dev::device	file:
+device	tmp.c	/^        struct device *device;$/;"	m	struct:ap3216c_dev	typeref:struct:ap3216c_dev::device	file:
+devid	ap3216c.c	/^        dev_t devid;$/;"	m	struct:ap3216c_dev	file:
+devid	tmp.c	/^        dev_t devid;$/;"	m	struct:ap3216c_dev	file:
+fops	ap3216c.c	/^struct file_operations fops = {$/;"	v	typeref:struct:file_operations
+fops	tmp.c	/^struct file_operations fops = {$/;"	v	typeref:struct:file_operations
+ir	ap3216c.c	/^        unsigned short ir, als, ps;     \/\/ 三个光传感数据$/;"	m	struct:ap3216c_dev	file:
+ir	tmp.c	/^        unsigned short ir, als, ps;     \/\/ 三个光传感数据$/;"	m	struct:ap3216c_dev	file:
+main	ap3216cApp.c	/^int main(int argc, char *argv[])$/;"	f
+major	ap3216c.c	/^        int major;$/;"	m	struct:ap3216c_dev	file:
+major	tmp.c	/^        int major;$/;"	m	struct:ap3216c_dev	file:
+nd	ap3216c.c	/^        struct device_node *nd;$/;"	m	struct:ap3216c_dev	typeref:struct:ap3216c_dev::device_node	file:
+nd	tmp.c	/^        struct device_node *nd;$/;"	m	struct:ap3216c_dev	typeref:struct:ap3216c_dev::device_node	file:
+obj-m	Makefile	/^obj-m := ap3216c.o$/;"	m
+private_data	ap3216c.c	/^        void *private_data;     \/\/ 自定义设备结构体的私有数据 放client地址 client从probe里获取$/;"	m	struct:ap3216c_dev	file:
+private_data	tmp.c	/^        void *private_data;     \/\/ 自定义设备结构体的私有数据 放client地址 client从probe里获取$/;"	m	struct:ap3216c_dev	file:
+ps	ap3216c.c	/^        unsigned short ir, als, ps;     \/\/ 三个光传感数据$/;"	m	struct:ap3216c_dev	file:
+ps	tmp.c	/^        unsigned short ir, als, ps;     \/\/ 三个光传感数据$/;"	m	struct:ap3216c_dev	file:
